@@ -1,0 +1,50 @@
+\documentclass[runningheads]{llncs}
+\usepackage[colorlinks=true,urlcolor=black,linkcolor=cyan,citecolor=cyan]{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+
+\pagenumbering{arabic}
+
+\usepackage{url}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{pifont}
+\usepackage[nocompress]{cite}
+
+\usepackage{dcolumn}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\newcolumntype{.}{D{.}{.}{-1}}
+
+\newcommand{\urlBiBTeX}[1]{\url{#1}} %%% needed for URL to print nice
+
+\begin{document}
+\title{\large Harvest or Explore: It's All About Time on Bug Bounty Markets}%\thanks{This research was supported in part by the National Science Foundation through award CCF-0424422 (TRUST - Team for Research in Ubiquitous Secure Technology).}}
+
+\author{Anonymous submission}
+\date{}
+
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+%\mynormality{1.2}
+%\newpage
+\input{sections/intro}
+\input{sections/related}
+\input{sections/data}
+\input{sections/method}
+%\input{sections/analysis}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\bibliographystyle{splncs}
+\bibliography{references}
+
+\end{document}
+% ___END___
