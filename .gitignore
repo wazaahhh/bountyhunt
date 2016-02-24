@@ -60,3 +60,15 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+jupyter/data/all.csv
+jupyter/figures/*
+*eps-converted-to.pdf
+
+*.aux
+
+*.gz
+
+manuscript/main.pdf
+
+manuscript/main.out
