@@ -246,7 +246,8 @@ def plotDecay(df):
         Xinit = np.append(Xinit,countBountiesProg.index[0])
         Xdiff = np.append(Xdiff, (countBountiesProg.index[i0] - countBountiesProg.index[0]).days)
         X = (countBountiesProg.index - countBountiesProg.index[0]).days + 1
-        Y = Y/float(max(Y))
+        #Y = Y/float(max(Y))
+        Y = Y/float(Y[0])
 
 
         Xall = np.append(Xall,X)
