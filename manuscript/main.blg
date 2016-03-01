@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: splncs.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Kesten"
+Warning--I didn't find a database entry for "Sorcont"
+Warning--empty author in hackerOne
+You've used 2 entries,
+            2087 wiz_defined-function locations,
+            505 strings with 4078 characters,
+and the built_in function-call counts, 466 in all, are:
+= -- 37
+> -- 18
+< -- 1
++ -- 7
+- -- 5
+* -- 31
+:= -- 64
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 29
+empty$ -- 43
+format.name$ -- 5
+if$ -- 109
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 1
+newline$ -- 12
+num.names$ -- 1
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 23
+stack$ -- 0
+substring$ -- 12
+swap$ -- 17
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 2
+width$ -- 3
+write$ -- 21
+(There were 4 warnings)

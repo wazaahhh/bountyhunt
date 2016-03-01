@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{hackerOne}
+:
+\newblock Hackerone website \urlBiBTeX{http://www.hackerone.com}. Last accessed
+  February 29, 2016.
+
+\bibitem{maillart2011quantification}
+Maillart, T., Sornette, D., Frei, S., Duebendorfer, T., Saichev, A.:
+\newblock Quantification of deviations from rationality with heavy tails in
+  human dynamics.
+\newblock Physical Review E \textbf{83}(5) (2011)  056101
+
+\end{thebibliography}
