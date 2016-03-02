@@ -1,7 +1,19 @@
 \section{Introduction}
 \label{sec:intro}
+Software security is a hard problem, which requires automatic and human testing....\\
+
+
+
+Crowdsourcing has become a popular way to find solutions to {\it hard problems}, such as sorting galaxies \cite{}, or folding proteins \cite{} for the sake of science, or to recognize words from books digitalized with low quality \cite{re-captcha} and to solve big data problems \cite{kaggle}. Even hard mathematical problems get addressed on open collaboration platforms \cite{}.\\
+
+Finding software bugs and vulnerabilities has been one of the most long-standing challenges in computer science \cite{}, and similarly, crowdsourcing has been suggested over the last decade as a way to efficiently cope with software cybersecurity, through a number mechanisms, such as vulnerability brokerage \cite{camp2004pricing}, markets \cite{schechter2002buy} and auctions, with their presumed incentives, strengths and weaknesses \cite{ozment2004bug}.\\
+
+Recently, however, ``bug bounty" platforms, essentially focused on crowdsourcing software vulnerabilities, have appeared and rapidly developed \cite{zhao2014exploratory,zhao2015empirical}. These online platforms offer both an infrastructure and play the role of {\it trusted third party} (TTP) between organizations (i.e., mainly Internet companies) and security researchers willing to search and submit the vulnerabilities they find.\\
+
+As markets of some sort, as we shall describe more in details later, these platforms inform on transactions occurring between organizations and security researchers, and thus, they are thought to reveal the {\it true value} of vulnerabilities. They also provide empirical evidence on the economic behaviors of the parties involved (at least on the publicly facing parts of platform).\\
+
+In this paper, we recognize the visionary theoretical propositions made more than 10 years ago by pioneering researchers in economics of information security \cite{schechter2002buy,ozment2004bug}, and we confront and enrich these propositions with empirical evidence.\\
+
+In particular, we find that indeed the bug bounty platform studied here (i.e., HackerOne) works essentially as a {\bf (reverse?)} Dutch auction \cite{}. (we cannot exclude that the designers of the platform got inspired by the article published in 2005 \cite{ozment2004bug}). There are however a number of differences and refinements from the theory, which can be rationalized by business and organization contingencies. Also, our results provide a more accurate picture of challenges faced by researchers when engaging in bug bounties (i.e., the St. Petersburg paradox of bug bounty hunting), and the consolidation of monetary rewards over several bug bounty programs and how new bug bounty programs suddenly shift incentives.\\
 
 This article is organized as follows. Related research is presented in Section \ref{sec:related}. Important features of the data set used here is detailed in Section \ref{sec:data}. We then introduce the main mechanism driving vulnerability discovery in Section \ref{sec:method}. Results are presented and discussed in respectively Sections \ref{sec:results} and \ref{sec:discussion}. We finally in conclude in Section \ref{sec:conclusion}.
-
-
-

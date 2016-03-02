@@ -3,49 +3,57 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: splncs.bst
 Database file #1: references.bib
+You're missing a field name---line 48 of file references.bib
+ : 
+ : %  title={Product safety: liability, R\&D, and signaling},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "re-captcha"
+Warning--I didn't find a database entry for "kaggle"
 Warning--I didn't find a database entry for "Kesten"
 Warning--I didn't find a database entry for "Sorcont"
+Warning--there's a number but no series in brady1999murphy
 Warning--empty author in hackerOne
-You've used 2 entries,
+You've used 18 entries,
             2087 wiz_defined-function locations,
-            505 strings with 4078 characters,
-and the built_in function-call counts, 466 in all, are:
-= -- 37
-> -- 18
-< -- 1
-+ -- 7
-- -- 5
-* -- 31
-:= -- 64
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 2
+            601 strings with 6675 characters,
+and the built_in function-call counts, 5693 in all, are:
+= -- 610
+> -- 143
+< -- 16
++ -- 56
+- -- 38
+* -- 342
+:= -- 708
+add.period$ -- 24
+call.type$ -- 18
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 29
-empty$ -- 43
-format.name$ -- 5
-if$ -- 109
+cite$ -- 20
+duplicate$ -- 326
+empty$ -- 590
+format.name$ -- 38
+if$ -- 1441
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 12
-num.names$ -- 1
-pop$ -- 11
+int.to.str$ -- 18
+missing$ -- 19
+newline$ -- 94
+num.names$ -- 17
+pop$ -- 89
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 23
+skip$ -- 222
 stack$ -- 0
-substring$ -- 12
-swap$ -- 17
-text.length$ -- 1
+substring$ -- 375
+swap$ -- 168
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 2
-width$ -- 3
-write$ -- 21
-(There were 4 warnings)
+warning$ -- 2
+while$ -- 57
+width$ -- 20
+write$ -- 209
+(There was 1 error message)

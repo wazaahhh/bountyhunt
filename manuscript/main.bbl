@@ -1,4 +1,87 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{camp2004pricing}
+Camp, L.J., Wolfram, C.:
+\newblock Pricing security.
+\newblock In: Economics of information security.
+\newblock Springer (2004)  17--34
+
+\bibitem{schechter2002buy}
+Schechter, S.:
+\newblock How to buy better testing using competition to get the most security
+  and robustness for your dollar.
+\newblock In: Infrastructure Security.
+\newblock Springer (2002)  73--87
+
+\bibitem{ozment2004bug}
+Ozment, A.:
+\newblock Bug auctions: Vulnerability markets reconsidered.
+\newblock In: Third Workshop on the Economics of Information Security. (2004)
+  19--26
+
+\bibitem{zhao2014exploratory}
+Zhao, M., Grossklags, J., Chen, K.:
+\newblock An exploratory study of white hat behaviors in a web vulnerability
+  disclosure program.
+\newblock In: Proceedings of the 2014 ACM Workshop on Security Information
+  Workers, ACM (2014)  51--58
+
+\bibitem{zhao2015empirical}
+Zhao, M., Grossklags, J., Liu, P.:
+\newblock An empirical study of web vulnerability discovery ecosystems.
+\newblock In: Proceedings of the 22nd ACM SIGSAC Conference on Computer and
+  Communications Security, ACM (2015)  1105--1117
+
+\bibitem{brady1999murphy}
+Brady, R.M., Anderson, R., Ball, R.C.:
+\newblock Murphy's law, the fitness of evolving species, and the limits of
+  software reliability.
+\newblock Number 471. University of Cambridge, Computer Laboratory (1999)
+
+\bibitem{smith2002ethical}
+Smith, B., Yurcik, W., Doss, D.:
+\newblock Ethical hacking: the security justification redux.
+\newblock In: Technology and Society, 2002.(ISTAS'02). 2002 International
+  Symposium on, IEEE (2002)  374--379
+
+\bibitem{saleem2006ethical}
+Saleem, S.A.:
+\newblock Ethical hacking as a risk management technique.
+\newblock In: Proceedings of the 3rd annual conference on Information security
+  curriculum development, ACM (2006)  201--203
+
+\bibitem{bishop2007penetration}
+Bishop, M.:
+\newblock About penetration testing.
+\newblock Security \& Privacy, IEEE \textbf{5}(6) (2007)  84--87
+
+\bibitem{hafiz2015game}
+Hafiz, M., Fang, M.:
+\newblock Game of detections: how are security vulnerabilities discovered in
+  the wild?
+\newblock Empirical Software Engineering (2015)  1--40
+
+\bibitem{bacon2009market}
+Bacon, D.F., Chen, Y., Parkes, D., Rao, M.:
+\newblock A market-based approach to software evolution.
+\newblock In: Proceedings of the 24th ACM SIGPLAN conference companion on
+  Object oriented programming systems languages and applications, ACM (2009)
+  973--980
+
+\bibitem{mckinney2007vulnerability}
+McKinney, D.:
+\newblock Vulnerability bazaar.
+\newblock Security \& Privacy, IEEE \textbf{5}(6) (2007)  69--73
+
+\bibitem{bulow1996auctions}
+Bulow, J., Klemperer, P.:
+\newblock Auctions versus negotiations.
+\newblock The American Economic Review \textbf{86}(1) (1996)  180--194
+
+\bibitem{finifter2013empirical}
+Finifter, M., Akhawe, D., Wagner, D.:
+\newblock An empirical study of vulnerability rewards programs.
+\newblock In: USENIX Security. Volume~13. (2013)
 
 \bibitem{hackerOne}
 :
@@ -10,5 +93,17 @@ Maillart, T., Sornette, D., Frei, S., Duebendorfer, T., Saichev, A.:
 \newblock Quantification of deviations from rationality with heavy tails in
   human dynamics.
 \newblock Physical Review E \textbf{83}(5) (2011)  056101
+
+\bibitem{benkler2011penguin}
+Benkler, Y.:
+\newblock The penguin and the leviathan: How cooperation triumphs over
+  self-interest.
+\newblock Crown Business (2011)
+
+\bibitem{horton2010labor}
+Horton, J.J., Chilton, L.B.:
+\newblock The labor economics of paid crowdsourcing.
+\newblock In: Proceedings of the 11th ACM conference on Electronic commerce,
+  ACM (2010)  209--218
 
 \end{thebibliography}

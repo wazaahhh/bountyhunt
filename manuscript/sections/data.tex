@@ -3,9 +3,9 @@
 The data were collected from the public part of the Hacker One website \cite{hackerOne}. From 35 public bounty programs, we collected the awards received by security researchers, with their timestamps and rewards in dollars. Since HackerOne started its platform in December 2013, new programs have been launched roughly every two months, following an essentially memoryless Poisson process ($\lambda = 57$ days, $p < 0.001$ and $R^2 > 0.99$). Figure \ref{timeline}{\bf A} shows the timeline of the 9 most active programs with at least 90 (rewarded) bug discoveries as of February 15, 2016. When a new program is launched, we observe an initial peak (or within weeks after launch), which accounts for the majority of discoveries, suggesting a ``windfall" effect, attracting already registered security researchers on the one hand, and newly enrolled researchers on the other hand {\bf (see Figure or Table \ref{xxx} for an account of contributions to bug discoveries by new and previously registered researchers)}. Following the initial surge of vulnerability discoveries, bounty awards become less frequent following a decay function with long-memory, following a robust power law decay $\sim t^{\alpha}$ with $\alpha = -0.40(4)$ ($p < 0.001$ and $R^2 = 0.79$) at the aggregate level and over all 35 bounty programs, with weekly time series of bug discoveries normalized by their initial value (see Figure \ref{timeline}{\bf B}).\\
 
 
-\begin{figure}[h]
+\begin{figure}[Ht]
 \begin{center}
-\includegraphics[width=17cm]{figures/timeline.eps}
+\includegraphics[width=13cm]{figures/timeline.eps}
 \caption{{\bf A.} Weekly vulnerability discoveries for the 9 most active programs (with at least 90 bug discoveries as of February 15, 2016). The light colored vertical bars represent the start of the program, occurring when the first bounty is awarded. Most programs exhibit an initial shock (or shortly after the start of the program), followed by a decay of discoveries, which is characterized at the aggregate level by a long-memory process (panel {\bf B}) characterized by a power law decay $\sim t^{\alpha}$ with $\alpha = -0.40(4)$ ($p < 0.001$ and $R^2 = 0.79$) as shown on panel  (for all 35 public programs considered in this study).}
 \label{timeline}
 \end{center}
@@ -21,6 +21,8 @@ The discovery of new bugs in a bounty program is contingent to the number of act
 
 We also investigate how the launch of a new bounty program is likely to create a new windfall effect, hence attracting researchers currently busy searching bugs in already existing bounty programs
 
+
+{\bf some researchers may be actually groups of security researchers (e.g., a whole security consulting company)}
 
 
 
