@@ -1,0 +1,75 @@
+
+
+
+\section{Regression Analysis}
+
+We next investigate whether the launch of new programs will attract researchers away from existing programs. In other words, we want to see whether there is a competition for researchers' attention among bounty programs.
+
+\subsection{Model Specification}
+
+Our basic OLS regression is as follows:
+
+\begin{equation}
+\label{reg_base}
+V_{it} = \beta_0 + \beta_1 dP_t + \beta_2 T_{it} + \epsilon_{it}
+\end{equation}
+
+$V_{it}$ is the number of vulnerability reports received by the public bounty program $i$ in the month $t$. $dP_t$ is the number of new programs launched in month $t$. We also considers private programs when calculating $dP_t$ by collaborating with HackerOne.   $T_{it}$ is the number of months since bounty program $i$ launched. $X_i$ is program $i$'s program-specific characteristics that could affect $i$'s attractiveness to researchers. Specifically, in the model specification we consider two such traits: $i$'s Aleks ranking and its average bounty amount. $A_i$ is the log of the Alexa rank of bounty program $i$'s website, which measures a website's popularity using web traffic data. We hypothesize that a more popular organization (i.e. with a smaller Alexa rank) will attract more attention from the researchers. $B_i$ is the log of the average amount of bounty paid by bounty program $i$. Finally, $\epsilon_{it}$ is the unobservable error term.
+
+% We also removed the data of the first month for each program, because the program might be launched in the middle of the month.
+
+
+In Columns 2-4, we extend the basic model to further study the competition among bounty programs. These alternative specifications include:
+
+
+\textbf{Average bounty of newly launched programs:} Intuitively, if the new programs offer higher bounties, they should attract more researchers from existing programs. We calculate the average bounty for all new programs in month $t$ as $NB_t$.
+
+\textbf{Interaction between $dP_t$ and $T_{it}$:} Conceivably, the effect of new programs on existing programs depends on certain characteristics of the latter, such as age. Among existing programs, will new entry create greater threats to older programs compared to younger programs? To examine this, we added an interaction term between the number of new programs ($dP_t$) and the age of the program ($T_{it}$).
+
+\textbf{Program fixed effect:} To better control for program-specific, time-invariant characteristics, e.g., reputation among researchers, we add program fixed effect in column (4). The addition of this fixed effect allows us to examine how bug discovery changes over time within each program $i$.
+
+%\begin{equation}
+%\label{reg_extended}
+%V_{it} = \beta_0 + \beta_1 dP_t + \beta_2 ln( A_i) + \beta_3 ln(B_i) + \beta_4T_{it} + \beta_5NB_{t} + \beta_6 dP_t \times T_{it} + %\epsilon_{it}
+%\end{equation}
+
+\subsection{Results}
+
+Table \ref{tab:reg} presents the results from our regression analysis:
+
+\begin{table}
+	\centering
+	\begin{tabular}{lcccc} \hline
+		& (1) & (2) & (3) & (4) \\
+		VARIABLES & $v_{it}$ & $v_{it}$ & $v_{it}$ & $v_{it}$ \\ \hline
+		&  &  &  &  \\
+		$dP_t$ & -1.235*** & -1.350*** & -2.310*** & -1.236** \\
+		& (0.305) & (0.327) & (0.603) & (0.515) \\
+		$A_i$ & -23.61*** & -23.72*** & -23.72*** & -7.188** \\
+		& (2.140) & (2.156) & (2.152) & (3.473) \\
+		$B_i$ & 16.64*** & 16.56*** & 16.75*** & -7.414 \\
+		& (1.311) & (1.315) & (1.339) & (5.698) \\
+		$T_{it}$ & -0.690 & -0.658 & -3.312*** & -3.758*** \\
+		& (0.426) & (0.427) & (1.239) & (1.128) \\
+		$NB_t$ &  & -0.0445 & -0.0312 & -0.0321* \\
+		&  & (0.0280) & (0.0277) & (0.0184) \\
+		$T_{it} \times dP_t$ &  &  & 0.106** & 0.0755* \\
+		&  &  & (0.0431) & (0.0406) \\
+		Constant & 160.2*** & 170.4*** & 190.3*** & 136.5*** \\
+		& (16.12) & (18.80) & (23.17) & (26.17) \\
+		&  &  &  &  \\
+		Observations & 1,212 & 1,212 & 1,212 & 1,212 \\
+		R-squared & 0.314 & 0.316 & 0.319 & 0.647 \\
+		Program FE & No & No & No & Yes \\ \hline
+		\multicolumn{5}{c}{ Robust standard errors in parentheses} \\
+		\multicolumn{5}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+	\end{tabular}
+	\label{tab:reg}
+\end{table}
+
+Consistent with our prediction, the coefficient of $dP_t$ is negative in all 4 specifications. Ceteris paribus, the launch of new programs reduces the number of vulnerabilities reported to existing programs. In other words, the entry of new programs indeed attracts researcher's attention away from existing programs. Also, the average bounty paid by new programs ($NB_t$) has a negative effect on existing programs as well, but the coefficient is only significant in model 4. 
+
+Interestingly, the coefficients of the interaction term $T_{it} \times dP_t$ in model 3 and 4 are positive, suggesting that the impact of newly launched programs depends on the age of the existing programs: compared with younger programs, the negative impact of $dP_t$ is smaller for programs with a longer history, i.e., those with larger $T_{it}$. One possible explanation is that the bug discovery for older programs is more likely to be close to equilibrium, and thus is more immune to pressures from outside competition. In contrast, for programs with a shorter history, researchers' efforts directed towards them might be less stable and more subject to changes depending on researchers' outside options.
+
+
+% (\textbf{TODO}: We can also test the robustness of the model by trying about alternative dependent variables, such as the the number of researchers that have submitted at least one report to program $i$ in month $t$.)
