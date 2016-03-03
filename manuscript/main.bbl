@@ -1,5 +1,43 @@
 \begin{thebibliography}{10}
 
+\bibitem{smith2013introduction}
+Smith, A.M., Lynn, S., Lintott, C.J.:
+\newblock An introduction to the zooniverse.
+\newblock In: First AAAI conference on human computation and crowdsourcing.
+  (2013)
+
+\bibitem{khatib2011algorithm}
+Khatib, F., Cooper, S., Tyka, M.D., Xu, K., Makedon, I., Popovi{\'c}, Z.,
+  Baker, D., Players, F.:
+\newblock Algorithm discovery by protein folding game players.
+\newblock Proceedings of the National Academy of Sciences \textbf{108}(47)
+  (2011)  18949--18953
+
+\bibitem{von2003captcha}
+Von~Ahn, L., Blum, M., Hopper, N.J., Langford, J.:
+\newblock Captcha: Using hard ai problems for security.
+\newblock In: Advances in Cryptology—EUROCRYPT 2003.
+\newblock Springer (2003)  294--311
+
+\bibitem{narayanan2011link}
+Narayanan, A., Shi, E., Rubinstein, B.I.:
+\newblock Link prediction by de-anonymization: How we won the kaggle social
+  network challenge.
+\newblock In: Neural Networks (IJCNN), The 2011 International Joint Conference
+  on, IEEE (2011)  1825--1834
+
+\bibitem{gowers2009massively}
+Gowers, T., Nielsen, M.:
+\newblock Massively collaborative mathematics.
+\newblock Nature \textbf{461}(7266) (2009)  879--881
+
+\bibitem{cranshaw2011polymath}
+Cranshaw, J., Kittur, A.:
+\newblock The polymath project: lessons from a successful online collaboration
+  in mathematics.
+\newblock In: Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems, ACM (2011)  1865--1874
+
 \bibitem{camp2004pricing}
 Camp, L.J., Wolfram, C.:
 \newblock Pricing security.
@@ -94,16 +132,27 @@ Maillart, T., Sornette, D., Frei, S., Duebendorfer, T., Saichev, A.:
   human dynamics.
 \newblock Physical Review E \textbf{83}(5) (2011)  056101
 
+\bibitem{kesten1973random}
+Kesten, H.:
+\newblock Random difference equations and renewal theory for products of random
+  matrices.
+\newblock Acta Mathematica \textbf{131}(1) (1973)  207--248
+
+\bibitem{sornette1997convergent}
+Sornette, D., Cont, R.:
+\newblock Convergent multiplicative processes repelled from zero: power laws
+  and truncated power laws.
+\newblock Journal de Physique I \textbf{7}(3) (1997)  431--444
+
+\bibitem{bernoulli1954exposition}
+Bernoulli, D.:
+\newblock Exposition of a new theory on the measurement of risk.
+\newblock Econometrica: Journal of the Econometric Society (1954)  23--36
+
 \bibitem{benkler2011penguin}
 Benkler, Y.:
 \newblock The penguin and the leviathan: How cooperation triumphs over
   self-interest.
 \newblock Crown Business (2011)
-
-\bibitem{horton2010labor}
-Horton, J.J., Chilton, L.B.:
-\newblock The labor economics of paid crowdsourcing.
-\newblock In: Proceedings of the 11th ACM conference on Electronic commerce,
-  ACM (2010)  209--218
 
 \end{thebibliography}

@@ -9,51 +9,48 @@ You're missing a field name---line 48 of file references.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "re-captcha"
-Warning--I didn't find a database entry for "kaggle"
-Warning--I didn't find a database entry for "Kesten"
-Warning--I didn't find a database entry for "Sorcont"
+Warning--I didn't find a database entry for "horton2010labor"
 Warning--there's a number but no series in brady1999murphy
 Warning--empty author in hackerOne
-You've used 18 entries,
+You've used 26 entries,
             2087 wiz_defined-function locations,
-            601 strings with 6675 characters,
-and the built_in function-call counts, 5693 in all, are:
-= -- 610
-> -- 143
-< -- 16
-+ -- 56
-- -- 38
-* -- 342
-:= -- 708
-add.period$ -- 24
-call.type$ -- 18
-change.case$ -- 16
+            648 strings with 8200 characters,
+and the built_in function-call counts, 8607 in all, are:
+= -- 919
+> -- 229
+< -- 23
++ -- 88
+- -- 62
+* -- 539
+:= -- 1069
+add.period$ -- 34
+call.type$ -- 26
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 326
-empty$ -- 590
-format.name$ -- 38
-if$ -- 1441
+cite$ -- 28
+duplicate$ -- 485
+empty$ -- 860
+format.name$ -- 62
+if$ -- 2158
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 19
-newline$ -- 94
-num.names$ -- 17
-pop$ -- 89
+int.to.str$ -- 26
+missing$ -- 27
+newline$ -- 135
+num.names$ -- 25
+pop$ -- 115
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 222
+skip$ -- 344
 stack$ -- 0
-substring$ -- 375
-swap$ -- 168
-text.length$ -- 16
+substring$ -- 623
+swap$ -- 263
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 57
-width$ -- 20
-write$ -- 209
+while$ -- 86
+width$ -- 28
+write$ -- 303
 (There was 1 error message)
