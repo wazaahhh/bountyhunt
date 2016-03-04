@@ -105,49 +105,69 @@ def bountyPerResearcher(df):
     pl.figure(1,(16,7))
 
     pl.subplot(121)
+    '''Bounty Awards per Program'''
+    loss = df.Bounty.groupby([df.Program]).sum().values
+    dic = plotPowerLawFit(loss,xmin=3000,addnoise=True,confint=0)
+    B = binning(dic['x'],dic['y'],100,log_10=True,confinter=5)
+    pl.loglog(10**B['bins'],10**B['mean'],'go',label="Sum awards per Program")
+    #pl.loglog(dic['x'],dic['y'],'.',color='blue',alpha=0.5)
+    pl.loglog(dic['xFit'],dic['yFit']*0.1,'k--',lw=2)
+
+    '''Bounty Awards per Researcher'''
     loss = df.Bounty.groupby([df.Researcher]).sum().values
     dic = plotPowerLawFit(loss,xmin=3000,addnoise=True,confint=0)
     B = binning(dic['x'],dic['y'],100,log_10=True,confinter=5)
-    pl.loglog(10**B['bins'],10**B['mean'],'bo',label="Sum awards per developer")
+    pl.loglog(10**B['bins'],10**B['mean'],'bo',label="Sum awards per Researcher")
     #pl.loglog(dic['x'],dic['y'],'.',color='blue',alpha=0.5)
-    pl.loglog(dic['xFit'],dic['yFit']*0.1,'k-.',lw=2)
+    pl.loglog(dic['xFit'],dic['yFit']*0.1,'k--',lw=2)
 
+    '''Bounty Awards per Researcher per Program'''
     loss = df.Bounty.groupby([df.Program,df.Researcher]).sum().values
     dic = plotPowerLawFit(loss,xmin=3000,addnoise=True,confint=0)
     B = binning(dic['x'],dic['y'],100,log_10=True,confinter=5)
-    pl.loglog(10**B['bins'],10**B['mean'],'ro',label="Sum awards per program per developer")
+    pl.loglog(10**B['bins'],10**B['mean'],'ro',label="Sum awards per Researcher per Researcher")
     #pl.loglog(dic['x'],dic['y'],'.',color='red',alpha=0.5)
-    pl.loglog(dic['xFit'],dic['yFit']*0.05,'k-.',lw=2)
+    pl.loglog(dic['xFit'],dic['yFit']*0.05,'k--',lw=2)
 
     pl.xlabel("Sum Bounty Awards")
     pl.ylabel("CCDF")
 
     pl.legend(loc=0)
-    pl.ylim(ymin=5*10**-4)
-    pl.xlim(xmax=3*10**5)
+    #pl.ylim(ymin=5*10**-4)
+    #pl.xlim(xmax=3*10**5)
 
     pl.subplot(122)
-    loss = df.Bounty.groupby([df.Researcher]).count().values
-
-    dic = plotPowerLawFit(loss,xmin=1,addnoise=True,confint=0)
+    '''Bounty Count per Program'''
+    loss = df.Bounty.groupby([df.Program]).count().values
+    dic = plotPowerLawFit(loss,xmin=20,addnoise=True,confint=0)
     B = binning(dic['x'],dic['y'],40,log_10=True,confinter=5)
-    pl.loglog(10**B['bins'],10**B['mean'],'bo',label="Bounties per developer")
-    #pl.loglog(dic['x'],dic['y'],'.',color=color,alpha=0.5,label="Bounties per developer")
-    pl.loglog(dic['xFit'],dic['yFit']*0.7,'k-.')#,color='blue',label="Fit Bounties per developer")
+    pl.loglog(10**B['bins'],10**B['mean'],'go',label="Bounties per Program")
+    #pl.loglog(dic['x'],dic['y'],'.',color=color,alpha=0.5,label="Bounties per Researcher")
+    pl.loglog(dic['xFit'],dic['yFit']*0.7,'k--')#,color='blue',label="Fit Bounties per Researcher")
 
+
+    '''Bounty Count per Researcher'''
+    loss = df.Bounty.groupby([df.Researcher]).count().values
+    dic = plotPowerLawFit(loss,xmin=3,addnoise=True,confint=0)
+    B = binning(dic['x'],dic['y'],40,log_10=True,confinter=5)
+    pl.loglog(10**B['bins'],10**B['mean'],'bo',label="Bounties per Researcher")
+    #pl.loglog(dic['x'],dic['y'],'.',color=color,alpha=0.5,label="Bounties per Researcher")
+    pl.loglog(dic['xFit'],dic['yFit']*0.7,'k--')#,color='blue',label="Fit Bounties per Researcher")
+
+    '''Bounty Count per Researcher per Program'''
     loss = df.Bounty.groupby([df.Program,df.Researcher]).count().values
     dic = plotPowerLawFit(loss,xmin=1,addnoise=True,confint=0)
     B = binning(dic['x'],dic['y'],40,log_10=True,confinter=5)
-    pl.loglog(10**B['bins'],10**B['mean'],'ro',label="Bounties per program per developer")
-    #pl.loglog(dic['x'],dic['y'],'.',color='red',alpha=0.5,label="Bounties per program per developer")
-    pl.loglog(dic['xFit'],dic['yFit']*0.7,'k-.',lw=2)#,color='red',label="Fit Bounties per program per developer")
+    pl.loglog(10**B['bins'],10**B['mean'],'ro',label="Bounties per Researcher per Program")
+    #pl.loglog(dic['x'],dic['y'],'.',color='red',alpha=0.5,label="Bounties per program per Researcher")
+    pl.loglog(dic['xFit'],dic['yFit']*0.7,'k--',lw=2)#,color='red',label="Fit Bounties per program per Researcher")
 
     pl.legend(loc=0)
     pl.xlabel("Bounty Count")
     pl.ylabel("CCDF")
 
-    pl.xlim(xmax=60)
-    pl.ylim(ymin=5*10**-4)
+    #pl.xlim(xmax=60)
+    #pl.ylim(ymin=5*10**-4)
 
 
 
