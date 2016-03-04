@@ -3,12 +3,35 @@
 
 Software reliability is at the core of cybersecurity, but it has been found that .. \\
 
-{\bf testing:} existing reliability growth models emphasise the Poisson distributionof individual software bugs, while the empirically observed reliability growthfor large systems is asymptotically slower than this.\cite{brady1999murphy}. In particular, we establish maximisation properties corresponding to Murphy’s law which work to the advantage of a biological species, but to the detriment of software reliability." \cite{brady1999murphy}
+{\bf testing:} existing reliability growth models emphasise the Poisson distribution
+of individual software bugs, while the empirically observed reliability growth
+for large systems is asymptotically slower than this.\cite{brady1999murphy}. In particular, we establish maximisation properties corresponding to Murphy’s law which work to the advantage of a biological species, but to the detriment of software reliability." \cite{brady1999murphy}
 
+
+An empirical study of the reliability of UNIX utilities \cite{miller1990empirical}
+
+Modeling and discovering vulnerabilities with code property graphs \cite{yamaguchi2014modeling}
 
 %``This paper describes a different approach to software reliability growth modeling which enables long-term predictions. Using relatively common assumptions, it is shown that the average value of the failure rate of the program, after a particular use-time, t, is bounded by N/(e·t), where N is the initial number of faults. This is conservative since it places a worst-case bound on the reliability rather than making a best estimate. The predictions might be relatively insensitive to assumption violations over the longer term. The theory offers the potential for making long-term software reliability growth predictions based solely on prior estimates of the number of residual faults. The predicted bound appears to agree with a wide range of industrial and experimental reliability data. Less pessimistic results can be obtained if additional assumptions are made about the failure rate distribution of faults."\cite{bishop1996conservative}
 
-%``We tackle two problems of interest to the software assurance community.%Firstly, existing models of software development (such as the waterfall and%spiral models) are oriented towards one-off software development projects,%while the growth of mass market computing has led to a world in which%most software consists of packages which follow an evolutionary development%model. This leads us to ask whether anything interesting and useful may%be said about evolutionary development. We answer in the affirmative. Secondly,%existing reliability growth models emphasise the Poisson distribution%of individual software bugs, while the empirically observed reliability growth%for large systems is asymptotically slower than this. We provide a rigorous%explanation of this phenomenon. Our reliability growth model is inspired by%statistical thermodynamics, but also applies to biological evolution. It is in%close agreement with experimental measurements of the fitness of an evolving%species and the reliability of commercial software products. However,%it shows that there are significant differences between the evolution of software%and the evolution of species. In particular, we establish maximisation%properties corresponding to Murphy’s law which work to the advantage of a%biological species, but to the detriment of software reliability." 
+%``We tackle two problems of interest to the software assurance community.
+%Firstly, existing models of software development (such as the waterfall and
+%spiral models) are oriented towards one-off software development projects,
+%while the growth of mass market computing has led to a world in which
+%most software consists of packages which follow an evolutionary development
+%model. This leads us to ask whether anything interesting and useful may
+%be said about evolutionary development. We answer in the affirmative. Secondly,
+%existing reliability growth models emphasise the Poisson distribution
+%of individual software bugs, while the empirically observed reliability growth
+%for large systems is asymptotically slower than this. We provide a rigorous
+%explanation of this phenomenon. Our reliability growth model is inspired by
+%statistical thermodynamics, but also applies to biological evolution. It is in
+%close agreement with experimental measurements of the fitness of an evolving
+%species and the reliability of commercial software products. However,
+%it shows that there are significant differences between the evolution of software
+%and the evolution of species. In particular, we establish maximisation
+%properties corresponding to Murphy’s law which work to the advantage of a
+%biological species, but to the detriment of software reliability." 
 
 
 \subsection{Software bug exhaustion processes \& empirical results}
@@ -31,41 +54,86 @@ Without good testing, systems cannot be made secure or robust. Without metrics f
 
 \subsection{Bounty Programs}
 
-Measuring software security is difficult and inexact; as a result, themarket for secure software has been compared to a ‘market of lemons.’Schechter has proposed a vulnerability market in which software producersoffer a time-variable reward to free-market testers who identify vulnerabilities.This vulnerability market can be used to improve testing andto create a relative metric of product security. This paper argues thatsuch a market can best be considered as an auction; auction theory isthen used to tune the structure of this ‘bug auction’ for efficiency and tobetter defend against attacks. The incentives for the software producerare also considered, and some fundamental problems with the concept arearticulated. \cite{ozment2004bug}
+Measuring software security is difficult and inexact; as a result, the
+market for secure software has been compared to a ‘market of lemons.’
+Schechter has proposed a vulnerability market in which software producers
+offer a time-variable reward to free-market testers who identify vulnerabilities.
+This vulnerability market can be used to improve testing and
+to create a relative metric of product security. This paper argues that
+such a market can best be considered as an auction; auction theory is
+then used to tune the structure of this ‘bug auction’ for efficiency and to
+better defend against attacks. The incentives for the software producer
+are also considered, and some fundamental problems with the concept are
+articulated. \cite{ozment2004bug}
 
 
 \subsection{Auction / Markets}
 
-For real world auctions, the importance of attracting a sufficient numberof bidders cannot be overemphasized: the addition of a single bidder can benefitthe auctioneer more than optimizations using reservation prices and entry fees \cite{bulow1996auctions}
+For real world auctions, the importance of attracting a sufficient number
+of bidders cannot be overemphasized: the addition of a single bidder can benefit
+the auctioneer more than optimizations using reservation prices and entry fees \cite{bulow1996auctions}
 
 
-``Casting their results in the terms of a monopsonistic action like the bug auction,they find that average prices are lower with uncertainty than without and thatprices tend to decline over the series of auctions [NPC03]. (The latter trendmay be countered by the generally increasing difficulty of finding each new bugas the most obvious or common bugs are remediated [BAB99].)"
+``Casting their results in the terms of a monopsonistic action like the bug auction,
+they find that average prices are lower with uncertainty than without and that
+prices tend to decline over the series of auctions [NPC03]. (The latter trend
+may be countered by the generally increasing difficulty of finding each new bug
+as the most obvious or common bugs are remediated [BAB99].)"
 
 
-``they are also dominant in these markets.Producers that lack the luxury of dominating their markets may be unwillingto employ the VM in testing for an open-ended period (i.e. until testers stopclaiming the reward)." (ozment)
+``they are also dominant in these markets.
+Producers that lack the luxury of dominating their markets may be unwilling
+to employ the VM in testing for an open-ended period (i.e. until testers stop
+claiming the reward)." (ozment)
 
 
-``Stuart Schechter proposes that firms create a vulnerability market in orderto ascertain the cost to break of their system. A producer (the entity that hascreated and is selling the product to be tested) would offer rewards to the firsttesters (persons or organizations who identify vulnerabilities in return for payment)to inform it of new vulnerabilities in its product. If, after time, the rewardis no longer being claimed, the producer can argue that the cost to break for itsproduct must be greater than the size of the reward [Sch02a][Sch02b][Sch04]."
+``Stuart Schechter proposes that firms create a vulnerability market in order
+to ascertain the cost to break of their system. A producer (the entity that has
+created and is selling the product to be tested) would offer rewards to the first
+testers (persons or organizations who identify vulnerabilities in return for payment)
+to inform it of new vulnerabilities in its product. If, after time, the reward
+is no longer being claimed, the producer can argue that the cost to break for its
+product must be greater than the size of the reward [Sch02a][Sch02b][Sch04]."
 
-``The product is not commercially released until the reward forfinding a vulnerability has gone unclaimed for some period of time."
+``The product is not commercially released until the reward for
+finding a vulnerability has gone unclaimed for some period of time."
 
 $\rightarrow$ we will question this assertion (and the answer is it depends on the number of people involved in the program).
 
 
-``Pre-release, the reward R is small when first offered; it then grows over timeuntil it is claimed. After each new vulnerability is reported and verified, thereward amount is reset to R0, the minimum reward value. If a vulnerability isreported more than once, only the first reporter receives the reward." $\rightarrow$ there is no target.
+``Pre-release, the reward R is small when first offered; it then grows over time
+until it is claimed. After each new vulnerability is reported and verified, the
+reward amount is reset to R0, the minimum reward value. If a vulnerability is
+reported more than once, only the first reporter receives the reward." $\rightarrow$ there is no target.
 
-``The continuouslyincreasing reward scheme maximizes value at the expense of speed:it trades potential delays in the reporting of vulnerabilities in return for monetarysavings. A tester can choose to report a vulnerability at any time; waitinglonger increases the reward she will receive, but it also increases the probabilitythat another tester will report the same vulnerability and thus deprive her ofthe reward. (The post-release phase may differ and is described below.) If thebug is genuine and unique, the reward will be reset"
+``The continuously
+increasing reward scheme maximizes value at the expense of speed:
+it trades potential delays in the reporting of vulnerabilities in return for monetary
+savings. A tester can choose to report a vulnerability at any time; waiting
+longer increases the reward she will receive, but it also increases the probability
+that another tester will report the same vulnerability and thus deprive her of
+the reward. (The post-release phase may differ and is described below.) If the
+bug is genuine and unique, the reward will be reset"
 
 auction? $\rightarrow$ yes but in time and quantity
 
 
 
-`The only vulnerabilities a producer will not learn about are those a testeridentifies and then exploits himself (because he values the exploitation of thevulnerability more highly than the reward), or those vulnerabilities with blackmarket value greater than the reward." (take into account the risk to trade on the black market)
+`The only vulnerabilities a producer will not learn about are those a tester
+identifies and then exploits himself (because he values the exploitation of the
+vulnerability more highly than the reward), or those vulnerabilities with black
+market value greater than the reward." (take into account the risk to trade on the black market)
 
-``testers’ valuations will in part depend upon the amount ofwork they put into identifying the bug (their costs)" $\rightarrow$ here, the software company sets the buying price. Accurate pricing reduces uncertainties and attracts security researchers 
+``testers’ valuations will in part depend upon the amount of
+work they put into identifying the bug (their costs)" $\rightarrow$ here, the software company sets the buying price. Accurate pricing reduces uncertainties and attracts security researchers 
 
 \subsection{Empirical Evidence of Bounty Programs}
-``Both programs appear economically efficient, comparingfavorably to the cost of hiring full-time securityresearchers. The Chrome VRP features low expected payoutsaccompanied by high potential payouts, a strategythat appears to be effective in engaging a broad communityof vulnerability researchers." \cite{finifter2013empirical}
+``Both programs appear economically efficient, comparing
+favorably to the cost of hiring full-time security
+researchers. The Chrome VRP features low expected payouts
+accompanied by high potential payouts, a strategy
+that appears to be effective in engaging a broad community
+of vulnerability researchers." \cite{finifter2013empirical}
 
 An exploratory study of white hat behaviors in a web vulnerability disclosure program \cite{zhao2014exploratory}
 

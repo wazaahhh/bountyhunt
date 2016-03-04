@@ -76,6 +76,17 @@ Brady, R.M., Anderson, R., Ball, R.C.:
   software reliability.
 \newblock Number 471. University of Cambridge, Computer Laboratory (1999)
 
+\bibitem{miller1990empirical}
+Miller, B.P., Fredriksen, L., So, B.:
+\newblock An empirical study of the reliability of unix utilities.
+\newblock Communications of the ACM \textbf{33}(12) (1990)  32--44
+
+\bibitem{yamaguchi2014modeling}
+Yamaguchi, F., Golde, N., Arp, D., Rieck, K.:
+\newblock Modeling and discovering vulnerabilities with code property graphs.
+\newblock In: Security and Privacy (SP), 2014 IEEE Symposium on, IEEE (2014)
+  590--604
+
 \bibitem{smith2002ethical}
 Smith, B., Yurcik, W., Doss, D.:
 \newblock Ethical hacking: the security justification redux.
@@ -160,10 +171,21 @@ Sornette, D., Maillart, T., Ghezzi, G.:
   2.5: Superlinear productivity in collective group actions.
 \newblock Plos one \textbf{9}(8) (2014)  e103023
 
-\bibitem{benkler2011penguin}
-Benkler, Y.:
-\newblock The penguin and the leviathan: How cooperation triumphs over
-  self-interest.
-\newblock Crown Business (2011)
+\bibitem{goetzmann2008equity}
+Goetzmann, W.N., Kumar, A.:
+\newblock Equity portfolio diversification*.
+\newblock Review of Finance \textbf{12}(3) (2008)  433--463
+
+\bibitem{raymond1999cathedral}
+Raymond, E.:
+\newblock The cathedral and the bazaar.
+\newblock Knowledge, Technology \& Policy \textbf{12}(3) (1999)  23--49
+
+\bibitem{bohme2006comparison}
+B{\"o}hme, R.:
+\newblock A comparison of market approaches to software vulnerability
+  disclosure.
+\newblock In: Emerging trends in information and communication security.
+\newblock Springer (2006)  298--311
 
 \end{thebibliography}

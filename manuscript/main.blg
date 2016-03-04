@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: splncs.bst
+Database file #1: references.bib
+You're missing a field name---line 48 of file references.bib
+ : 
+ : %  title={Product safety: liability, R\&D, and signaling},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 170 of file references.bib
+ : @incollection{bohme2006comparison
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 523 of file references.bib
+ : @article{maillart2011quantification
+ :                                    ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+Warning--there's a number but no series in brady1999murphy
+Warning--empty author in hackerOne
+You've used 32 entries,
+            2087 wiz_defined-function locations,
+            686 strings with 9236 characters,
+and the built_in function-call counts, 10864 in all, are:
+= -- 1167
+> -- 285
+< -- 30
++ -- 109
+- -- 77
+* -- 690
+:= -- 1342
+add.period$ -- 41
+call.type$ -- 32
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 616
+empty$ -- 1059
+format.name$ -- 77
+if$ -- 2719
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 32
+newline$ -- 166
+num.names$ -- 31
+pop$ -- 128
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 449
+stack$ -- 0
+substring$ -- 813
+swap$ -- 349
+text.length$ -- 30
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 111
+width$ -- 34
+write$ -- 377
+(There were 3 error messages)
