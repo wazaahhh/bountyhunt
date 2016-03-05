@@ -3,52 +3,51 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: splncs.bst
 Database file #1: references.bib
-You're missing a field name---line 44 of file references.bib
+You're missing a field name---line 48 of file references.bib
  : 
  : %  title={Product safety: liability, R\&D, and signaling},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for ""
 Warning--there's a number but no series in brady1999murphy
-You've used 42 entries,
+You've used 43 entries,
             2087 wiz_defined-function locations,
-            745 strings with 10937 characters,
-and the built_in function-call counts, 13918 in all, are:
-= -- 1491
-> -- 377
-< -- 39
+            748 strings with 10903 characters,
+and the built_in function-call counts, 13756 in all, are:
+= -- 1464
+> -- 374
+< -- 38
 + -- 143
-- -- 101
-* -- 891
-:= -- 1730
-add.period$ -- 55
-call.type$ -- 42
+- -- 100
+* -- 873
+:= -- 1718
+add.period$ -- 56
+call.type$ -- 43
 change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 795
-empty$ -- 1340
-format.name$ -- 101
-if$ -- 3474
+cite$ -- 44
+duplicate$ -- 788
+empty$ -- 1335
+format.name$ -- 100
+if$ -- 3428
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 44
-newline$ -- 217
-num.names$ -- 42
-pop$ -- 155
+int.to.str$ -- 43
+missing$ -- 45
+newline$ -- 221
+num.names$ -- 43
+pop$ -- 164
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 575
+skip$ -- 563
 stack$ -- 0
-substring$ -- 1008
-swap$ -- 452
-text.length$ -- 39
+substring$ -- 968
+swap$ -- 440
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 142
-width$ -- 44
-write$ -- 494
+while$ -- 140
+width$ -- 45
+write$ -- 500
 (There was 1 error message)

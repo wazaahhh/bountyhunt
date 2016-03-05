@@ -1,5 +1,21 @@
 \begin{thebibliography}{10}
 
+\bibitem{Pentagon}
+Greenberg, A.:
+\newblock Pentagon launches the feds’ first ‘bug bounty’ for hackers
+  \urlBiBTeX{http://www.wired.com/2016/03/pentagon-launches-feds-first-bug-bounty-hackers/}.
+  Last accessed March 4th, 2016.
+
+\bibitem{adams1984textordfeminineoptimizing}
+Adams, E.:
+\newblock Optimizing preventive maintenance of software products.
+\newblock IBM Journal of Research and Development \textbf{28}(1) (1984)  2--14
+
+\bibitem{surowiecki2005wisdom}
+Surowiecki, J.:
+\newblock The wisdom of crowds.
+\newblock Anchor (2005)
+
 \bibitem{smith2013introduction}
 Smith, A.M., Lynn, S., Lintott, C.J.:
 \newblock An introduction to the zooniverse.
@@ -19,13 +35,6 @@ Von~Ahn, L., Blum, M., Hopper, N.J., Langford, J.:
 \newblock In: Advances in Cryptology—EUROCRYPT 2003.
 \newblock Springer (2003)  294--311
 
-\bibitem{narayanan2011link}
-Narayanan, A., Shi, E., Rubinstein, B.I.:
-\newblock Link prediction by de-anonymization: How we won the kaggle social
-  network challenge.
-\newblock In: Neural Networks (IJCNN), The 2011 International Joint Conference
-  on, IEEE (2011)  1825--1834
-
 \bibitem{gowers2009massively}
 Gowers, T., Nielsen, M.:
 \newblock Massively collaborative mathematics.
@@ -38,24 +47,17 @@ Cranshaw, J., Kittur, A.:
 \newblock In: Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems, ACM (2011)  1865--1874
 
-\bibitem{camp2004pricing}
-Camp, L.J., Wolfram, C.:
-\newblock Pricing security.
-\newblock In: Economics of information security.
-\newblock Springer (2004)  17--34
+\bibitem{bohme2006comparison}
+B{\"o}hme, R.:
+\newblock A comparison of market approaches to software vulnerability
+  disclosure.
+\newblock In: Emerging trends in information and communication security.
+\newblock Springer (2006)  298--311
 
-\bibitem{schechter2002buy}
-Schechter, S.:
-\newblock How to buy better testing using competition to get the most security
-  and robustness for your dollar.
-\newblock In: Infrastructure Security.
-\newblock Springer (2002)  73--87
-
-\bibitem{ozment2004bug}
-Ozment, A.:
-\newblock Bug auctions: Vulnerability markets reconsidered.
-\newblock In: Third Workshop on the Economics of Information Security. (2004)
-  19--26
+\bibitem{finifter2013empirical}
+Finifter, M., Akhawe, D., Wagner, D.:
+\newblock An empirical study of vulnerability rewards programs.
+\newblock In: USENIX Security. Volume~13. (2013)
 
 \bibitem{zhao2014exploratory}
 Zhao, M., Grossklags, J., Chen, K.:
@@ -70,16 +72,16 @@ Zhao, M., Grossklags, J., Liu, P.:
 \newblock In: Proceedings of the 22nd ACM SIGSAC Conference on Computer and
   Communications Security, ACM (2015)  1105--1117
 
+\bibitem{zhao2016empirical}
+Zhao, M., Liu, P.:
+\newblock Empirical analysis and modeling of black-box mutational fuzzing.
+\newblock In: International Symposium on Engineering Secure Software and
+  Systems (ESSoS). (2016)
+
 \bibitem{littlewood1973bayesian}
 Littlewood, B., Verrall, J.:
 \newblock A bayesian reliability growth model for computer software.
 \newblock Applied statistics (1973)  332--346
-
-\bibitem{adams1984textordfeminineoptimizing}
-Adams, E.:
-\newblock {\textordfeminine}optimizing preventive maintenance of software
-  products, {\textordmasculine} ibm j.
-\newblock Research and Development \textbf{28}(1) (1984)  2--14
 
 \bibitem{littlewood1989predicting}
 Littlewood, B., Mayne, A.:
@@ -98,12 +100,6 @@ Yamaguchi, F., Golde, N., Arp, D., Rieck, K.:
 \newblock Modeling and discovering vulnerabilities with code property graphs.
 \newblock In: Security and Privacy (SP), 2014 IEEE Symposium on, IEEE (2014)
   590--604
-
-\bibitem{zhao2016empirical}
-Zhao, M., Liu, P.:
-\newblock Empirical analysis and modeling of black-box mutational fuzzing.
-\newblock In: International Symposium on Engineering Secure Software and
-  Systems (ESSoS). (2016)
 
 \bibitem{maillart2008empirical}
 Maillart, T., Sornette, D., Spaeth, S., Von~Krogh, G.:
@@ -162,6 +158,19 @@ Hafiz, M., Fang, M.:
   the wild?
 \newblock Empirical Software Engineering (2015)  1--40
 
+\bibitem{camp2004pricing}
+Camp, L.J., Wolfram, C.:
+\newblock Pricing security.
+\newblock In: Economics of information security.
+\newblock Springer (2004)  17--34
+
+\bibitem{schechter2002buy}
+Schechter, S.:
+\newblock How to buy better testing using competition to get the most security
+  and robustness for your dollar.
+\newblock In: Infrastructure Security.
+\newblock Springer (2002)  73--87
+
 \bibitem{kannan2005market}
 Kannan, K., Telang, R.:
 \newblock Market for software vulnerabilities? think again.
@@ -183,6 +192,12 @@ Algarni, A., Malaiya, Y.:
 \newblock International Journal of Computer, Information Science and
   Engineering \textbf{8}(3) (2014)  71--81
 
+\bibitem{ozment2004bug}
+Ozment, A.:
+\newblock Bug auctions: Vulnerability markets reconsidered.
+\newblock In: Third Workshop on the Economics of Information Security. (2004)
+  19--26
+
 \bibitem{milgrom1982theory}
 Milgrom, P.R., Weber, R.J.:
 \newblock A theory of auctions and competitive bidding.
@@ -194,11 +209,6 @@ Pandey, P., Snekkenes, E.A.:
   management.
 \newblock In: 16th IEEE International Conference on High Performance and
   Communications, WiP track. (2014)
-
-\bibitem{finifter2013empirical}
-Finifter, M., Akhawe, D., Wagner, D.:
-\newblock An empirical study of vulnerability rewards programs.
-\newblock In: USENIX Security. Volume~13. (2013)
 
 \bibitem{maillart2011quantification}
 Maillart, T., Sornette, D., Frei, S., Duebendorfer, T., Saichev, A.:
@@ -238,12 +248,5 @@ Sornette, D., Maillart, T., Ghezzi, G.:
 Goetzmann, W.N., Kumar, A.:
 \newblock Equity portfolio diversification*.
 \newblock Review of Finance \textbf{12}(3) (2008)  433--463
-
-\bibitem{bohme2006comparison}
-B{\"o}hme, R.:
-\newblock A comparison of market approaches to software vulnerability
-  disclosure.
-\newblock In: Emerging trends in information and communication security.
-\newblock Springer (2006)  298--311
 
 \end{thebibliography}
