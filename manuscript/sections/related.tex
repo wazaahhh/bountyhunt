@@ -1,42 +1,15 @@
 \section{Related work}
 \label{sec:related}
+Achieving software reliability has concerned engineers for at least four decades \cite{littlewood1973bayesian,adams1984textordfeminineoptimizing,littlewood1989predicting}. Early empirical work on software bug discovery dates back to the time of UNIX systems \cite{miller1990empirical}, and over years, numbers of models for discovering vulnerabilities have been developed (see \cite{yamaguchi2014modeling,zhao2016empirical} for some of the most contemporary approaches to date). However, as early as in 1989, it was recognized the the time to achieve a given level of reliability is inversely proportional to desired frequency level (e.g., to achieve a $10^{-9}$ probability of failure, it takes $10^{9}$ time units) \cite{adams1984textordfeminineoptimizing}. Actually, the random variable $P(T > t) = 1/t$ corresponds to the Zipf's law, which diverges as the random variable sample increases (i.e., no statistical moment is defined) \cite{maillart2008empirical,saichev2009theory}, and thus, it was rightly concluded that there would be software vulnerabilities as long as long enough resources and time could be provided to find them. This problem can also be seen from an entropy maximization perspective, which is good for evolution (e.g., in biology) but detrimental in software engineering \cite{brady1999murphy}. \\
 
-Software reliability is at the core of cybersecurity, but it has been found that .. \\
+To date, no systematic algorithm approach has been found to get rid of bugs at a speed that would allow following the general pace of software evolution and expansion. Thus human intelligence is still considered as one of the most efficient ways to find bugs, and most importantly to uncover software vulnerabilities. Management techniques and governance approached have been developed to help software developers and security researchers in their review tasks, starting with {\it pair programming} \cite{hulkko2005multiple}. To protect against cyber-criminals, it is also fashionable to hire {\it ethical hackers}, who use the mindset of potential attackers to test the security of computer systems \cite{smith2002ethical,saleem2006ethical,bishop2007penetration}. Inherited from the open source mindset, the full-disclosure policy has been hotly debated as promoting a safer Internet \cite{arora2008optimal}, although in practice it seems that public disclosure has increasingly become a dominant standard to get people and organizations informed as fast as possible about software vulnerabilities.\\
 
-{\bf testing:} existing reliability growth models emphasise the Poisson distribution
-of individual software bugs, while the empirically observed reliability growth
-for large systems is asymptotically slower than this.\cite{brady1999murphy}. In particular, we establish maximisation properties corresponding to Murphy’s law which work to the advantage of a biological species, but to the detriment of software reliability." \cite{brady1999murphy}
+In most of these successful human-driven approaches, there is knowledge-sharing component, may it be between two programmers sitting together in front of a screen, ethical hackers being hired to discover and explore the weaknesses of a computer system, or the broader community being exposed to open source code and publicly disclosed software vulnerabilities. Thus, Eric Raymond's famous quote ``Given enough eyeballs, all bugs shallow" \cite{raymond1999cathedral}, tends to hold, even though in practice things are often slightly more complicated \cite{hafiz2015game}.\\
 
+Recognizing the importance of trading knowledge, the concept of {\it vulnerability markets} has emerged as a way to ensure appropriate incentives for knowledge transfer \cite{}
 
-An empirical study of the reliability of UNIX utilities \cite{miller1990empirical}
+\clearpage
 
-Modeling and discovering vulnerabilities with code property graphs \cite{yamaguchi2014modeling}
-
-%``This paper describes a different approach to software reliability growth modeling which enables long-term predictions. Using relatively common assumptions, it is shown that the average value of the failure rate of the program, after a particular use-time, t, is bounded by N/(e·t), where N is the initial number of faults. This is conservative since it places a worst-case bound on the reliability rather than making a best estimate. The predictions might be relatively insensitive to assumption violations over the longer term. The theory offers the potential for making long-term software reliability growth predictions based solely on prior estimates of the number of residual faults. The predicted bound appears to agree with a wide range of industrial and experimental reliability data. Less pessimistic results can be obtained if additional assumptions are made about the failure rate distribution of faults."\cite{bishop1996conservative}
-
-%``We tackle two problems of interest to the software assurance community.
-%Firstly, existing models of software development (such as the waterfall and
-%spiral models) are oriented towards one-off software development projects,
-%while the growth of mass market computing has led to a world in which
-%most software consists of packages which follow an evolutionary development
-%model. This leads us to ask whether anything interesting and useful may
-%be said about evolutionary development. We answer in the affirmative. Secondly,
-%existing reliability growth models emphasise the Poisson distribution
-%of individual software bugs, while the empirically observed reliability growth
-%for large systems is asymptotically slower than this. We provide a rigorous
-%explanation of this phenomenon. Our reliability growth model is inspired by
-%statistical thermodynamics, but also applies to biological evolution. It is in
-%close agreement with experimental measurements of the fitness of an evolving
-%species and the reliability of commercial software products. However,
-%it shows that there are significant differences between the evolution of software
-%and the evolution of species. In particular, we establish maximisation
-%properties corresponding to Murphy’s law which work to the advantage of a
-%biological species, but to the detriment of software reliability." 
-
-
-\subsection{Software bug exhaustion processes \& empirical results}
-
-ethical hackers \cite{smith2002ethical,saleem2006ethical} and penetration testing ({\bf Neither testers nor sponsors should assert that the penetration test has found all possible flaws, or that the failure to find flaws means that the system is secure}. All types of testing can show only the presence of flaws and never the absence of them. The best that testers can say is that the specific flaws they looked for and failed to find aren't present: this can give some idea of the overall security of the system's design and implementation. ) \cite{bishop2007penetration}. Game of detections: how are security vulnerabilities discovered in the wild? \cite{hafiz2015game}
 
 {\bf bug bounty markets = best of both worlds : (i) large scale testing by (ii) humans. Larger pool of expertise (c.f., collective intelligence)}
 

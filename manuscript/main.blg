@@ -12,52 +12,52 @@ Repeated entry---line 170 of file references.bib
  : @incollection{bohme2006comparison
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 523 of file references.bib
+Repeated entry---line 590 of file references.bib
  : @article{maillart2011quantification
  :                                    ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--there's a number but no series in brady1999murphy
 Warning--empty author in hackerOne
-You've used 32 entries,
+You've used 40 entries,
             2087 wiz_defined-function locations,
-            686 strings with 9236 characters,
-and the built_in function-call counts, 10864 in all, are:
-= -- 1167
-> -- 285
-< -- 30
-+ -- 109
-- -- 77
-* -- 690
-:= -- 1342
-add.period$ -- 41
-call.type$ -- 32
-change.case$ -- 31
+            737 strings with 10670 characters,
+and the built_in function-call counts, 13316 in all, are:
+= -- 1427
+> -- 357
+< -- 37
++ -- 136
+- -- 96
+* -- 852
+:= -- 1648
+add.period$ -- 52
+call.type$ -- 40
+change.case$ -- 38
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 616
-empty$ -- 1059
-format.name$ -- 77
-if$ -- 2719
+cite$ -- 42
+duplicate$ -- 757
+empty$ -- 1291
+format.name$ -- 96
+if$ -- 3328
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 32
-newline$ -- 166
-num.names$ -- 31
-pop$ -- 128
+int.to.str$ -- 40
+missing$ -- 41
+newline$ -- 206
+num.names$ -- 39
+pop$ -- 155
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 449
+skip$ -- 550
 stack$ -- 0
-substring$ -- 813
-swap$ -- 349
-text.length$ -- 30
+substring$ -- 972
+swap$ -- 430
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 111
-width$ -- 34
-write$ -- 377
+while$ -- 135
+width$ -- 42
+write$ -- 469
 (There were 3 error messages)
