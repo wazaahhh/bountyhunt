@@ -32,7 +32,7 @@ Khatib, F., Cooper, S., Tyka, M.D., Xu, K., Makedon, I., Popovi{\'c}, Z.,
 \bibitem{von2003captcha}
 Von~Ahn, L., Blum, M., Hopper, N.J., Langford, J.:
 \newblock Captcha: Using hard ai problems for security.
-\newblock In: Advances in Cryptology—EUROCRYPT 2003.
+\newblock In: Advances in Cryptology, EUROCRYPT 2003.
 \newblock Springer (2003)  294--311
 
 \bibitem{gowers2009massively}
@@ -246,7 +246,7 @@ Sornette, D., Maillart, T., Ghezzi, G.:
 
 \bibitem{goetzmann2008equity}
 Goetzmann, W.N., Kumar, A.:
-\newblock Equity portfolio diversification*.
+\newblock Equity portfolio diversification.
 \newblock Review of Finance \textbf{12}(3) (2008)  433--463
 
 \end{thebibliography}
