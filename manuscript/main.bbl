@@ -162,32 +162,43 @@ Hafiz, M., Fang, M.:
   the wild?
 \newblock Empirical Software Engineering (2015)  1--40
 
-\bibitem{bacon2009market}
-Bacon, D.F., Chen, Y., Parkes, D., Rao, M.:
-\newblock A market-based approach to software evolution.
-\newblock In: Proceedings of the 24th ACM SIGPLAN conference companion on
-  Object oriented programming systems languages and applications, ACM (2009)
-  973--980
+\bibitem{kannan2005market}
+Kannan, K., Telang, R.:
+\newblock Market for software vulnerabilities? think again.
+\newblock Management Science \textbf{51}(5) (2005)  726--740
 
 \bibitem{mckinney2007vulnerability}
 McKinney, D.:
 \newblock Vulnerability bazaar.
 \newblock Security \& Privacy, IEEE \textbf{5}(6) (2007)  69--73
 
-\bibitem{bulow1996auctions}
-Bulow, J., Klemperer, P.:
-\newblock Auctions versus negotiations.
-\newblock The American Economic Review \textbf{86}(1) (1996)  180--194
+\bibitem{ransbotham2008markets}
+Ransbotham, S., Mitra, S., Ramsey, J.:
+\newblock Are markets for vulnerabilities effective?
+\newblock ICIS 2008 Proceedings (2008) ~24
+
+\bibitem{algarni2014software}
+Algarni, A., Malaiya, Y.:
+\newblock Software vulnerability markets: Discoverers and buyers.
+\newblock International Journal of Computer, Information Science and
+  Engineering \textbf{8}(3) (2014)  71--81
+
+\bibitem{milgrom1982theory}
+Milgrom, P.R., Weber, R.J.:
+\newblock A theory of auctions and competitive bidding.
+\newblock Econometrica: Journal of the Econometric Society (1982)  1089--1122
+
+\bibitem{pandey2014assessment}
+Pandey, P., Snekkenes, E.A.:
+\newblock An assessment of market methods for information security risk
+  management.
+\newblock In: 16th IEEE International Conference on High Performance and
+  Communications, WiP track. (2014)
 
 \bibitem{finifter2013empirical}
 Finifter, M., Akhawe, D., Wagner, D.:
 \newblock An empirical study of vulnerability rewards programs.
 \newblock In: USENIX Security. Volume~13. (2013)
-
-\bibitem{hackerOne}
-:
-\newblock Hackerone website \urlBiBTeX{http://www.hackerone.com}. Last accessed
-  February 29, 2016.
 
 \bibitem{maillart2011quantification}
 Maillart, T., Sornette, D., Frei, S., Duebendorfer, T., Saichev, A.:

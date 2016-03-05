@@ -3,61 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: splncs.bst
 Database file #1: references.bib
-You're missing a field name---line 48 of file references.bib
+You're missing a field name---line 44 of file references.bib
  : 
  : %  title={Product safety: liability, R\&D, and signaling},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 170 of file references.bib
- : @incollection{bohme2006comparison
- :                                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 590 of file references.bib
- : @article{maillart2011quantification
- :                                    ,
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--there's a number but no series in brady1999murphy
-Warning--empty author in hackerOne
-You've used 40 entries,
+You've used 42 entries,
             2087 wiz_defined-function locations,
-            737 strings with 10670 characters,
-and the built_in function-call counts, 13316 in all, are:
-= -- 1427
-> -- 357
-< -- 37
-+ -- 136
-- -- 96
-* -- 852
-:= -- 1648
-add.period$ -- 52
-call.type$ -- 40
-change.case$ -- 38
+            745 strings with 10937 characters,
+and the built_in function-call counts, 13918 in all, are:
+= -- 1491
+> -- 377
+< -- 39
++ -- 143
+- -- 101
+* -- 891
+:= -- 1730
+add.period$ -- 55
+call.type$ -- 42
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 757
-empty$ -- 1291
-format.name$ -- 96
-if$ -- 3328
+cite$ -- 43
+duplicate$ -- 795
+empty$ -- 1340
+format.name$ -- 101
+if$ -- 3474
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 41
-newline$ -- 206
-num.names$ -- 39
+int.to.str$ -- 42
+missing$ -- 44
+newline$ -- 217
+num.names$ -- 42
 pop$ -- 155
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 550
+skip$ -- 575
 stack$ -- 0
-substring$ -- 972
-swap$ -- 430
-text.length$ -- 37
+substring$ -- 1008
+swap$ -- 452
+text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 135
-width$ -- 42
-write$ -- 469
-(There were 3 error messages)
+warning$ -- 1
+while$ -- 142
+width$ -- 44
+write$ -- 494
+(There was 1 error message)
