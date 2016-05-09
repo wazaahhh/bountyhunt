@@ -1,0 +1,56 @@
+\documentclass[12pt]{revtex4}
+\usepackage{ulem}
+\usepackage{url}
+\usepackage{epsfig}
+\usepackage{graphicx,color}% Include figure files
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `basename #1
+.tif`.png}
+\usepackage[psamsfonts]{amssymb}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+%\usepackage{cite}
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ba}{\begin{eqnarray}}
+\newcommand{\ea}{\end{eqnarray}}
+
+\begin{document}
+\title{cascades in bug bounty programs}
+
+\author{T. Maillart}
+\email{maillart@berkeley.edu}
+\affiliation{UC Berkeley, Berkeley, USA}
+
+
+
+
+
+\date{\today}
+
+
+\begin{abstract}
+\vspace{1cm}
+\input{sections/abstract}
+\end{abstract}
+
+\maketitle
+
+%\input{sections/intro}
+%\input{sections/background}
+%\input{sections/methods}
+\input{sections/results}
+
+
+\bibliographystyle{apsrev4-1}
+\bibliography{bib/references}
+
+\end{document}
+
+
+
+
+ 
+
+

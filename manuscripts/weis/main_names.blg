@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main_names.aux
+The style file: splncs.bst
+Database file #1: references.bib
+You're missing a field name---line 75 of file references.bib
+ : 
+ : %  title={Product safety: liability, R\&D, and signaling},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 312 of file references.bib
+ : @article{maillart2008empirical
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--there's a number but no series in brady1999murphy
+You've used 45 entries,
+            2087 wiz_defined-function locations,
+            761 strings with 11406 characters,
+and the built_in function-call counts, 14207 in all, are:
+= -- 1510
+> -- 382
+< -- 39
++ -- 147
+- -- 102
+* -- 900
+:= -- 1775
+add.period$ -- 58
+call.type$ -- 45
+change.case$ -- 42
+chr.to.int$ -- 0
+cite$ -- 46
+duplicate$ -- 813
+empty$ -- 1383
+format.name$ -- 102
+if$ -- 3537
+int.to.chr$ -- 0
+int.to.str$ -- 45
+missing$ -- 46
+newline$ -- 230
+num.names$ -- 45
+pop$ -- 173
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 581
+stack$ -- 0
+substring$ -- 1000
+swap$ -- 453
+text.length$ -- 39
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 145
+width$ -- 47
+write$ -- 520
+(There were 2 error messages)

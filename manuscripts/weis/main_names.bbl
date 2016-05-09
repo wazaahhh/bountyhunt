@@ -1,0 +1,264 @@
+\begin{thebibliography}{10}
+
+\bibitem{Pentagon}
+Greenberg, A.:
+\newblock Pentagon launches the feds’ first ‘bug bounty’ for hackers
+  \urlBiBTeX{http://www.wired.com/2016/03/pentagon-launches-feds-first-bug-bounty-hackers/}.
+  Last accessed March 4th, 2016.
+
+\bibitem{adams1984textordfeminineoptimizing}
+Adams, E.:
+\newblock Optimizing preventive maintenance of software products.
+\newblock IBM Journal of Research and Development \textbf{28}(1) (1984)  2--14
+
+\bibitem{surowiecki2005wisdom}
+Surowiecki, J.:
+\newblock The wisdom of crowds.
+\newblock Anchor (2005)
+
+\bibitem{smith2013introduction}
+Smith, A.M., Lynn, S., Lintott, C.J.:
+\newblock An introduction to the zooniverse.
+\newblock In: First AAAI conference on human computation and crowdsourcing.
+  (2013)
+
+\bibitem{khatib2011algorithm}
+Khatib, F., Cooper, S., Tyka, M.D., Xu, K., Makedon, I., Popovi{\'c}, Z.,
+  Baker, D., Players, F.:
+\newblock Algorithm discovery by protein folding game players.
+\newblock Proceedings of the National Academy of Sciences \textbf{108}(47)
+  (2011)  18949--18953
+
+\bibitem{von2003captcha}
+Von~Ahn, L., Blum, M., Hopper, N.J., Langford, J.:
+\newblock Captcha: Using hard ai problems for security.
+\newblock In: Advances in Cryptology, EUROCRYPT 2003.
+\newblock Springer (2003)  294--311
+
+\bibitem{gowers2009massively}
+Gowers, T., Nielsen, M.:
+\newblock Massively collaborative mathematics.
+\newblock Nature \textbf{461}(7266) (2009)  879--881
+
+\bibitem{cranshaw2011polymath}
+Cranshaw, J., Kittur, A.:
+\newblock The polymath project: lessons from a successful online collaboration
+  in mathematics.
+\newblock In: Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems, ACM (2011)  1865--1874
+
+\bibitem{bohme2006comparison}
+B{\"o}hme, R.:
+\newblock A comparison of market approaches to software vulnerability
+  disclosure.
+\newblock In: Emerging trends in information and communication security.
+\newblock Springer (2006)  298--311
+
+\bibitem{finifter2013empirical}
+Finifter, M., Akhawe, D., Wagner, D.:
+\newblock An empirical study of vulnerability rewards programs.
+\newblock In: USENIX Security. Volume~13. (2013)
+
+\bibitem{zhao2014exploratory}
+Zhao, M., Grossklags, J., Chen, K.:
+\newblock An exploratory study of white hat behaviors in a web vulnerability
+  disclosure program.
+\newblock In: Proceedings of the 2014 ACM Workshop on Security Information
+  Workers, ACM (2014)  51--58
+
+\bibitem{zhao2015empirical}
+Zhao, M., Grossklags, J., Liu, P.:
+\newblock An empirical study of web vulnerability discovery ecosystems.
+\newblock In: Proceedings of the 22nd ACM SIGSAC Conference on Computer and
+  Communications Security, ACM (2015)  1105--1117
+
+\bibitem{zhao2016empirical}
+Zhao, M., Liu, P.:
+\newblock Empirical analysis and modeling of black-box mutational fuzzing.
+\newblock In: International Symposium on Engineering Secure Software and
+  Systems (ESSoS). (2016)
+
+\bibitem{littlewood1973bayesian}
+Littlewood, B., Verrall, J.:
+\newblock A bayesian reliability growth model for computer software.
+\newblock Applied statistics (1973)  332--346
+
+\bibitem{littlewood1989predicting}
+Littlewood, B., Mayne, A.:
+\newblock Predicting software reliability [and discussion].
+\newblock Philosophical Transactions of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences \textbf{327}(1596) (1989)
+  513--527
+
+\bibitem{miller1990empirical}
+Miller, B.P., Fredriksen, L., So, B.:
+\newblock An empirical study of the reliability of unix utilities.
+\newblock Communications of the ACM \textbf{33}(12) (1990)  32--44
+
+\bibitem{yamaguchi2014modeling}
+Yamaguchi, F., Golde, N., Arp, D., Rieck, K.:
+\newblock Modeling and discovering vulnerabilities with code property graphs.
+\newblock In: Security and Privacy (SP), 2014 IEEE Symposium on, IEEE (2014)
+  590--604
+
+\bibitem{maillart2008empirical}
+Maillart, T., Sornette, D., Spaeth, S., Von~Krogh, G.:
+\newblock Empirical tests of zipf’s law mechanism in open source linux
+  distribution.
+\newblock Physical Review Letters \textbf{101}(21) (2008)  218701
+
+\bibitem{saichev2009theory}
+Saichev, A.I., Malevergne, Y., Sornette, D.:
+\newblock Theory of Zipf's law and beyond. Volume 632.
+\newblock Springer Science \& Business Media (2009)
+
+\bibitem{brady1999murphy}
+Brady, R.M., Anderson, R., Ball, R.C.:
+\newblock Murphy's law, the fitness of evolving species, and the limits of
+  software reliability.
+\newblock Number 471. University of Cambridge, Computer Laboratory (1999)
+
+\bibitem{hulkko2005multiple}
+Hulkko, H., Abrahamsson, P.:
+\newblock A multiple case study on the impact of pair programming on product
+  quality.
+\newblock In: Proceedings of the 27th international conference on Software
+  engineering, ACM (2005)  495--504
+
+\bibitem{smith2002ethical}
+Smith, B., Yurcik, W., Doss, D.:
+\newblock Ethical hacking: the security justification redux.
+\newblock In: Technology and Society, 2002.(ISTAS'02). 2002 International
+  Symposium on, IEEE (2002)  374--379
+
+\bibitem{saleem2006ethical}
+Saleem, S.A.:
+\newblock Ethical hacking as a risk management technique.
+\newblock In: Proceedings of the 3rd annual conference on Information security
+  curriculum development, ACM (2006)  201--203
+
+\bibitem{bishop2007penetration}
+Bishop, M.:
+\newblock About penetration testing.
+\newblock Security \& Privacy, IEEE \textbf{5}(6) (2007)  84--87
+
+\bibitem{arora2008optimal}
+Arora, A., Telang, R., Xu, H.:
+\newblock Optimal policy for software vulnerability disclosure.
+\newblock Management Science \textbf{54}(4) (2008)  642--656
+
+\bibitem{raymond1999cathedral}
+Raymond, E.:
+\newblock The cathedral and the bazaar.
+\newblock Knowledge, Technology \& Policy \textbf{12}(3) (1999)  23--49
+
+\bibitem{hafiz2015game}
+Hafiz, M., Fang, M.:
+\newblock Game of detections: how are security vulnerabilities discovered in
+  the wild?
+\newblock Empirical Software Engineering (2015)  1--40
+
+\bibitem{camp2004pricing}
+Camp, L.J., Wolfram, C.:
+\newblock Pricing security.
+\newblock In: Economics of information security.
+\newblock Springer (2004)  17--34
+
+\bibitem{schechter2002buy}
+Schechter, S.:
+\newblock How to buy better testing using competition to get the most security
+  and robustness for your dollar.
+\newblock In: Infrastructure Security.
+\newblock Springer (2002)  73--87
+
+\bibitem{kannan2005market}
+Kannan, K., Telang, R.:
+\newblock Market for software vulnerabilities? think again.
+\newblock Management Science \textbf{51}(5) (2005)  726--740
+
+\bibitem{mckinney2007vulnerability}
+McKinney, D.:
+\newblock Vulnerability bazaar.
+\newblock Security \& Privacy, IEEE \textbf{5}(6) (2007)  69--73
+
+\bibitem{ransbotham2008markets}
+Ransbotham, S., Mitra, S., Ramsey, J.:
+\newblock Are markets for vulnerabilities effective?
+\newblock ICIS 2008 Proceedings (2008) ~24
+
+\bibitem{algarni2014software}
+Algarni, A., Malaiya, Y.:
+\newblock Software vulnerability markets: Discoverers and buyers.
+\newblock International Journal of Computer, Information Science and
+  Engineering \textbf{8}(3) (2014)  71--81
+
+\bibitem{ozment2004bug}
+Ozment, A.:
+\newblock Bug auctions: Vulnerability markets reconsidered.
+\newblock In: Third Workshop on the Economics of Information Security. (2004)
+  19--26
+
+\bibitem{milgrom1982theory}
+Milgrom, P.R., Weber, R.J.:
+\newblock A theory of auctions and competitive bidding.
+\newblock Econometrica: Journal of the Econometric Society (1982)  1089--1122
+
+\bibitem{pandey2014assessment}
+Pandey, P., Snekkenes, E.A.:
+\newblock An assessment of market methods for information security risk
+  management.
+\newblock In: 16th IEEE International Conference on High Performance and
+  Communications, WiP track. (2014)
+
+\bibitem{maillart2011quantification}
+Maillart, T., Sornette, D., Frei, S., Duebendorfer, T., Saichev, A.:
+\newblock Quantification of deviations from rationality with heavy tails in
+  human dynamics.
+\newblock Physical Review E \textbf{83}(5) (2011)  056101
+
+\bibitem{kesten1973random}
+Kesten, H.:
+\newblock Random difference equations and renewal theory for products of random
+  matrices.
+\newblock Acta Mathematica \textbf{131}(1) (1973)  207--248
+
+\bibitem{sornette1997convergent}
+Sornette, D., Cont, R.:
+\newblock Convergent multiplicative processes repelled from zero: power laws
+  and truncated power laws.
+\newblock Journal de Physique I \textbf{7}(3) (1997)  431--444
+
+\bibitem{bernoulli1954exposition}
+Bernoulli, D.:
+\newblock Exposition of a new theory on the measurement of risk.
+\newblock Econometrica: Journal of the Econometric Society (1954)  23--36
+
+\bibitem{loewenstein1992anomalies}
+Loewenstein, G., Prelec, D.:
+\newblock Anomalies in intertemporal choice: Evidence and an interpretation.
+\newblock The Quarterly Journal of Economics (1992)  573--597
+
+\bibitem{sornette2014much}
+Sornette, D., Maillart, T., Ghezzi, G.:
+\newblock How much is the whole really more than the sum of its parts? 1? 1=
+  2.5: Superlinear productivity in collective group actions.
+\newblock Plos one \textbf{9}(8) (2014)  e103023
+
+\bibitem{goetzmann2008equity}
+Goetzmann, W.N., Kumar, A.:
+\newblock Equity portfolio diversification.
+\newblock Review of Finance \textbf{12}(3) (2008)  433--463
+
+\bibitem{moussouris2016}
+Zetter, K.:
+\newblock Bug bounty guru katie moussouris will help hackers and companies play
+  nice
+  \urlBiBTeX{https://www.wired.com/2016/04/bug-bounty-guru-katie-moussouris-will-help-hackers-companies-play-nice/}.
+  Last accessed May 9th, 2016.
+
+\bibitem{coase1937}
+Coase, R.H.:
+\newblock {The Nature of the Firm}.
+\newblock Economica \textbf{4}(16) (November 1937)  386--405
+
+\end{thebibliography}

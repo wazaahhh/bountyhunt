@@ -125,7 +125,7 @@ def bountyPerResearcher(df):
     loss = df.Bounty.groupby([df.Program,df.Researcher]).sum().values
     dic = plotPowerLawFit(loss,xmin=3000,addnoise=True,confint=0)
     B = binning(dic['x'],dic['y'],100,log_10=True,confinter=5)
-    pl.loglog(10**B['bins'],10**B['mean'],'ro',label="Sum awards per Researcher per Researcher")
+    pl.loglog(10**B['bins'],10**B['mean'],'ro',label="Sum awards per Researcher per Program")
     #pl.loglog(dic['x'],dic['y'],'.',color='red',alpha=0.5)
     pl.loglog(dic['xFit'],dic['yFit']*0.05,'k--',lw=2)
 
@@ -238,8 +238,8 @@ def plotTimeline(df):
 
         #pl.bar(x_old,y_others,width=7,bottom=y_old,lw=0.05,color='lightgrey',label=program)
 
-    pl.xlabel("Time [weeks]")
-    pl.ylabel("(Cumulative) bounties awarded")
+    #pl.xlabel("Time [weeks]")
+    #pl.ylabel("(Cumulative) bounties awarded")
     pl.legend(loc=0)
     pl.savefig(figuredir + "timeline.eps")
 
@@ -247,7 +247,8 @@ def plotTimeline(df):
 def plotDecay(df):
     t_resol = "1W"
 
-    pl.figure(2,(12,7))
+    pl.figure(1,(15,7))
+
 
     Xall = []
     Yall = []
@@ -266,7 +267,9 @@ def plotDecay(df):
         Xinit = np.append(Xinit,countBountiesProg.index[0])
         Xdiff = np.append(Xdiff, (countBountiesProg.index[i0] - countBountiesProg.index[0]).days)
         X = (countBountiesProg.index - countBountiesProg.index[0]).days + 1
+        X2 = (countBountiesProg.index - countBountiesProg.index[-1]).days  +1
         #Y = Y/float(max(Y))
+        Y2 = Y.copy()
         Y = Y/float(Y[0])
 
 
@@ -277,8 +280,15 @@ def plotDecay(df):
         lX = np.log10(X[c])
         lY = np.log10(Y[c])
 
-        #pl.plot(lX,lY,label=program)
 
+        lY2 = np.log10(Y2[c])
+        #pl.plot(lX,lY2,'.',label=program)
+        pl.plot(X2/7.,np.cumsum(Y2),'.',label=program)
+
+    pl.figure(1)
+    #pl.legend(loc=0)
+
+    pl.figure(2,(12,7))
     Xall = Xall/7.
     c = (Xall > 0)*(Yall > 0)*(Xall < 3000)
     lXall = np.log10(Xall[c])

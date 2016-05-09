@@ -1,0 +1,76 @@
+\documentclass{llncs}
+
+\usepackage[hyphenbreaks]{breakurl}
+
+\pagenumbering{arabic}
+
+\usepackage{url}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{pifont}
+\usepackage[nocompress]{cite}
+\usepackage[outdir=./]{epstopdf}
+
+\usepackage{dcolumn}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\newcolumntype{.}{D{.}{.}{-1}}
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ba}{\begin{eqnarray}}
+\newcommand{\ea}{\end{eqnarray}}
+
+\newcommand{\urlBiBTeX}[1]{\url{#1}} %%% needed for URL to print nice
+
+\begin{document}
+\title{\large Given Enough Eyeballs, All Bugs Are Shallow?}
+\subtitle{\normalsize Revisiting Eric Raymond with Bug Bounty Programs} 
+%\vspace{1cm} Working Paper}
+
+%\thanks{This research was supported in part by the National Science Foundation through award CCF-0424422 (TRUST - Team for Research in Ubiquitous Secure Technology). One of the authors (TM) acknowledges support from the Swiss National Science Foundation (SNSF; Grants PA00P2_145368  and P300P2_158462)}
+
+
+
+\author{Thomas Maillart\inst{1} \and  Mingyi Zhao\inst{2} \and  Jens Grossklags \inst{2} \and John Chuang \inst{1}}
+\institute{University of California, Berkeley\\
+School of Information\\
+102 South Hall\\
+Berkeley, CA 94720\\
+\and 
+PennState University\\
+College of Information Science and Technology\\
+329A Information Sciences and Technology Building\\
+University Park, PA 16802}
+
+
+\maketitle
+\begin{abstract}
+
+\input{sections/abstract}
+\end{abstract}
+%\mynormality{1.2}
+%\newpage
+\input{sections/intro}
+\input{sections/related}
+\input{sections/data}
+\input{sections/method}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\subsubsection*{Acknowledgements}
+This research was supported in part by the National Science Foundation through award CCF-0424422 (TRUST - Team for Research in Ubiquitous Secure Technology). One of the authors (TM) acknowledges support from the Swiss National Science Foundation (SNSF; Grants PA00P2\_145368  and P300P2\_158462). The authors would like to thank the 3 anonymous reviewers who provided insightful comments and thus contributed to a considerable improvement of the manuscript.
+
+
+\bibliographystyle{splncs}
+\bibliography{references}
+
+\clearpage
+\input{sections/appendix}
+
+\end{document}
