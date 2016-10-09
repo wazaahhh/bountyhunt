@@ -332,7 +332,7 @@ def bootstrapping(data,xmin,confint=.05,numiter = -1,plot=False,plotconfint=Fals
     i = 0
     k = 0
     while i < numiter:
-        q2 = pwlaw(len(sample),xmin,mu)[0]
+        q2 = pwlaw_fit(len(sample),xmin,mu)[0]
         m[i]=np.sort(q2)
         ks = kstest(q2,f)
 
