@@ -7,7 +7,7 @@ As presented on Figure \ref{fig:scaling}A, we find that the number $B_c$ of vuln
 
 \begin{figure}[Ht]
 \begin{center}
-\includegraphics[width=12cm]{figures/scaling.eps}
+\includegraphics[width=12cm]{../figures/scaling.eps}
 \caption{ {\bf A.}  The number of bounty discoveries per program $B_c$ scales as $~h^{\alpha}$ with $\alpha = 1.10(3)$ and $h$ the number of security researchers enrolled in a program. Since $\alpha > 1$, a bounty programs benefits in a super-linear fashion to the enrollment of more researchers. {\bf B.} The tail distribution of bounty discoveries per researcher per program follows a power law distribution $P(X>x) \sim 1/x^\gamma$  with $1 < \gamma = 1.63(7) < 2$. The distribution is therefore relatively well bounded (with the first moment being well-defined). Furthermore, we observe an upper cut-off of the tail with $x_{max} \approx 400$ bounties. Thus, from {\bf A.} and {\bf B.} combined, we find that the number of vulnerabilities is mainly driven by the number of researchers enrolled in programs.}
 \label{fig:scaling}
 \end{center}
@@ -20,7 +20,7 @@ For security researchers, the main metric is the expected cumulative payoff earn
 
 \begin{figure}[Ht]
 \begin{center}
-\includegraphics[width=12cm]{figures/scalings_awards.eps}
+\includegraphics[width=12cm]{../figures/scalings_awards.eps}
 \caption{{\bf A.} (Log-)binned cumulative down-payment per program over all public programs on the HackerOne platform, scales as $R_{k} \sim k^{1.27}$ ($ p < 0.001$, $R^2 > 0.99$), with $k$ the rank. Each log-bin shows the mean value and the circle sizes depict the number of values in each bin (i.e., the rank frequency). The super-linear {\it scaling} relationship between the cumulative reward and the rank shows that reward increases as a function of $k$. However, the frequency of vulnerabilities $P_k$ is only slightly upwards trended increasing as $ \sim k^{0.13}$ ($ p < 0.001$, $R^2 = 0.40$). {\bf B.} Considering the opposite figure from the viewpoint of researcher's expected payoff when enrolling in a single bug bounty program, the super-linear effect is much stronger ($R_{k} \sim k^{1.40}$ with $ p < 0.001$ and $R^2 > 0.99$). However, the frequency decays following a power law of the form $P_{k} \sim k^{-1.85}$ ($ p < 0.001$, $R^2 = 0.97$). {\bf C.} Over all bug bounty programs, security researchers have another expected payoff: the reward scaling is smaller ($R_{k} \sim k^{1.24}$ with $ p < 0.001$, $R^2 > 0.99$), yet the frequency of bug discoveries decays much slower as a function of rank $P_{k} \sim k^{-1.05}$ ($ p < 0.001$, $R^2 = 0.85$).}
 \label{fig:scalings_awards}
 \end{center}

@@ -72,3 +72,5 @@ jupyter/figures/*
 manuscript/main.pdf
 
 manuscript/main.out
+
+.DS_Store
