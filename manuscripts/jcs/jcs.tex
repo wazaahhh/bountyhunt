@@ -1,0 +1,73 @@
+\documentclass[12pt]{revtex4}
+\usepackage{ulem}
+\usepackage{url}
+\usepackage{epsfig}
+\usepackage{graphicx,color}% Include figure files
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `basename #1
+.tif`.png}
+\usepackage[psamsfonts]{amssymb}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+%\usepackage{cite}
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ba}{\begin{eqnarray}}
+\newcommand{\ea}{\end{eqnarray}}
+
+\begin{document}
+\title{\large Given Enough Eyeballs, All Bugs Are Shallow? \\ Revisiting Eric Raymond with Bug Bounty Programs}
+
+\author{Thomas Maillart}
+\email{maillart@berkeley.edu}
+\affiliation{UC Berkeley, Berkeley, USA}
+
+\author{Mingyi Zhao}
+%\email{}
+\affiliation{The Pennsylvania State University, University Park, USA}
+
+\author{Jens Grossklags}
+\affiliation{The Pennsylvania State University, University Park, USA}
+
+\author{John Chuang}
+\affiliation{UC Berkeley, Berkeley, USA}
+
+
+
+
+\date{\today}
+
+
+\begin{abstract}
+\vspace{1cm}
+\input{../sections/abstract}
+\end{abstract}
+
+\maketitle
+
+%\input{sections/intro}
+%\input{sections/background}
+%\input{sections/methods}
+\input{../sections/intro}
+\input{../sections/related}
+\input{../sections/data}
+\input{../sections/method}
+\input{../sections/results}
+\input{../sections/discussion}
+\input{../sections/conclusion}
+
+%\subsubsection*{Acknowledgements}
+%\acknowledgements{This research was supported in part by the National Science Foundation through award CCF-0424422 (TRUST - Team for Research in Ubiquitous Secure Technology). One of the authors (TM) acknowledges support from the Swiss National Science Foundation (SNSF; Grants PA00P2\_145368  and P300P2\_158462). The authors would like to thank Aron Laszka for his valuable comments, as well as the 3 anonymous reviewers who provided insightful comments and thus contributed to a considerable improvement of the manuscript.}
+
+\bibliographystyle{apsrev4-1}
+\bibliography{../references}
+
+\end{document}
+
+
+
+
+ 
+
+
