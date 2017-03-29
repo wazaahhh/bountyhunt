@@ -1,10 +1,10 @@
 %merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 %Control: key (0)
-%Control: author (72) initials jnrlst
+%Control: author (0) dotless jnrlst
 %Control: editor formatted (1) identically to author
-%Control: production of article title (-1) disabled
-%Control: page (0) single
-%Control: year (1) truncated
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (0) verbatim
 %Control: production of eprint (0) enabled
 \begin{thebibliography}{45}%
 \makeatletter
@@ -50,385 +50,448 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Greenberg}()}]{Pentagon}%
+\bibitem [{\citenamefont {Greenberg}(2016)}]{Pentagon}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Andy}\ \bibnamefont
   {Greenberg}},\ }\href@noop {} {\enquote {\bibinfo {title} {Pentagon launches
-  the feds’ first ‘bug bounty’ for hackers},}\ }\bibinfo {note} {{\it
+  the feds' first 'bug bounty' for hackers},}\ } (\bibinfo {year} {2016}),\
+  \bibinfo {note} {{\it
   http://www.wired.com/2016/03/pentagon-launches-feds-first-bug-bounty-hackers/}.
   Last accessed March 4th, 2016.}\BibitemShut {Stop}%
 \bibitem [{\citenamefont {Adams}(1984)}]{adams1984textordfeminineoptimizing}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Adams}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {IBM
-  Journal of Research and Development}\ }\textbf {\bibinfo {volume} {28}},\
-  \bibinfo {pages} {2} (\bibinfo {year} {1984})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {EN}~\bibnamefont
+  {Adams}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Optimizing
+  preventive maintenance of software products},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {IBM Journal of Research and Development}\
+  }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages} {2--14} (\bibinfo {year}
+  {1984})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Surowiecki}(2005)}]{surowiecki2005wisdom}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {James}\ \bibnamefont
   {Surowiecki}},\ }\href@noop {} {\emph {\bibinfo {title} {The wisdom of
   crowds}}}\ (\bibinfo  {publisher} {Anchor},\ \bibinfo {year}
   {2005})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Smith}\ \emph {et~al.}(2013)\citenamefont {Smith},
   \citenamefont {Lynn},\ and\ \citenamefont {Lintott}}]{smith2013introduction}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
-  {Smith}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Lynn}}, \ and\
-  \bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont {Lintott}},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {First AAAI Conference on Human
-  Computation and Crowdsourcing}}}\ (\bibinfo {year} {2013})\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Arfon~M}\ \bibnamefont
+  {Smith}}, \bibinfo {author} {\bibfnamefont {Stuart}\ \bibnamefont {Lynn}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Chris~J}\ \bibnamefont {Lintott}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {An introduction to the
+  zooniverse},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {First AAAI
+  Conference on Human Computation and Crowdsourcing}}}\ (\bibinfo {year}
+  {2013})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Khatib}\ \emph {et~al.}(2011)\citenamefont {Khatib},
   \citenamefont {Cooper}, \citenamefont {Tyka}, \citenamefont {Xu},
   \citenamefont {Makedon}, \citenamefont {Popovi{\'c}}, \citenamefont {Baker},\
   and\ \citenamefont {Players}}]{khatib2011algorithm}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
-  {Khatib}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Cooper}},
-  \bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont {Tyka}}, \bibinfo
-  {author} {\bibfnamefont {K.}~\bibnamefont {Xu}}, \bibinfo {author}
-  {\bibfnamefont {I.}~\bibnamefont {Makedon}}, \bibinfo {author} {\bibfnamefont
-  {Z.}~\bibnamefont {Popovi{\'c}}}, \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Baker}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {F.}~\bibnamefont {Players}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-   {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
-  {\bibinfo {volume} {108}},\ \bibinfo {pages} {18949} (\bibinfo {year}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Firas}\ \bibnamefont
+  {Khatib}}, \bibinfo {author} {\bibfnamefont {Seth}\ \bibnamefont {Cooper}},
+  \bibinfo {author} {\bibfnamefont {Michael~D}\ \bibnamefont {Tyka}}, \bibinfo
+  {author} {\bibfnamefont {Kefan}\ \bibnamefont {Xu}}, \bibinfo {author}
+  {\bibfnamefont {Ilya}\ \bibnamefont {Makedon}}, \bibinfo {author}
+  {\bibfnamefont {Zoran}\ \bibnamefont {Popovi{\'c}}}, \bibinfo {author}
+  {\bibfnamefont {David}\ \bibnamefont {Baker}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Foldit}\ \bibnamefont {Players}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Algorithm discovery by protein folding game
+  players},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences}\ }\textbf {\bibinfo
+  {volume} {108}},\ \bibinfo {pages} {18949--18953} (\bibinfo {year}
   {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Von~Ahn}\ \emph {et~al.}(2003)\citenamefont
   {Von~Ahn}, \citenamefont {Blum}, \citenamefont {Hopper},\ and\ \citenamefont
   {Langford}}]{von2003captcha}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Von~Ahn}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Blum}},
-  \bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont {Hopper}}, \ and\
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Langford}},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {Advances in Cryptology, EUROCRYPT
-  2003}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {2003})\ pp.\
-  \bibinfo {pages} {294--311}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Luis}\ \bibnamefont
+  {Von~Ahn}}, \bibinfo {author} {\bibfnamefont {Manuel}\ \bibnamefont {Blum}},
+  \bibinfo {author} {\bibfnamefont {Nicholas~J}\ \bibnamefont {Hopper}}, \ and\
+  \bibinfo {author} {\bibfnamefont {John}\ \bibnamefont {Langford}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Captcha: Using hard ai
+  problems for security},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
+  {Advances in Cryptology, EUROCRYPT 2003}}}\ (\bibinfo  {publisher}
+  {Springer},\ \bibinfo {year} {2003})\ pp.\ \bibinfo {pages}
+  {294--311}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Gowers}\ and\ \citenamefont
   {Nielsen}(2009)}]{gowers2009massively}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Gowers}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Nielsen}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nature}\ }\textbf {\bibinfo {volume} {461}},\ \bibinfo {pages} {879}
-  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Timothy}\ \bibnamefont
+  {Gowers}}\ and\ \bibinfo {author} {\bibfnamefont {Michael}\ \bibnamefont
+  {Nielsen}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Massively
+  collaborative mathematics},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {461}},\ \bibinfo {pages}
+  {879--881} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Cranshaw}\ and\ \citenamefont
   {Kittur}(2011)}]{cranshaw2011polymath}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Cranshaw}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Kittur}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of
-  the SIGCHI Conference on Human Factors in Computing Systems}}}\ (\bibinfo
-  {organization} {ACM},\ \bibinfo {year} {2011})\ pp.\ \bibinfo {pages}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Justin}\ \bibnamefont
+  {Cranshaw}}\ and\ \bibinfo {author} {\bibfnamefont {Aniket}\ \bibnamefont
+  {Kittur}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The polymath
+  project: lessons from a successful online collaboration in mathematics},}\
+  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of the SIGCHI
+  Conference on Human Factors in Computing Systems}}}\ (\bibinfo {organization}
+  {ACM},\ \bibinfo {year} {2011})\ pp.\ \bibinfo {pages}
   {1865--1874}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {B{\"o}hme}(2006)}]{bohme2006comparison}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {B{\"o}hme}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Emerging
-  Trends in Information and Communication Security}}}\ (\bibinfo  {publisher}
-  {Springer},\ \bibinfo {year} {2006})\ pp.\ \bibinfo {pages}
-  {298--311}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rainer}\ \bibnamefont
+  {B{\"o}hme}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A comparison
+  of market approaches to software vulnerability disclosure},}\ }in\ \href@noop
+  {} {\emph {\bibinfo {booktitle} {Emerging Trends in Information and
+  Communication Security}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo
+  {year} {2006})\ pp.\ \bibinfo {pages} {298--311}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Finifter}\ \emph {et~al.}(2013)\citenamefont
   {Finifter}, \citenamefont {Akhawe},\ and\ \citenamefont
   {Wagner}}]{finifter2013empirical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Finifter}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Akhawe}}, \
-  and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Wagner}},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {USENIX Security}}}\ (\bibinfo
-  {year} {2013})\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Matthew}\ \bibnamefont
+  {Finifter}}, \bibinfo {author} {\bibfnamefont {Devdatta}\ \bibnamefont
+  {Akhawe}}, \ and\ \bibinfo {author} {\bibfnamefont {David}\ \bibnamefont
+  {Wagner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {An empirical
+  study of vulnerability rewards programs.}}\ }in\ \href@noop {} {\emph
+  {\bibinfo {booktitle} {USENIX Security}}}\ (\bibinfo {year}
+  {2013})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhao}\ \emph {et~al.}(2014)\citenamefont {Zhao},
   \citenamefont {Grossklags},\ and\ \citenamefont
   {Chen}}]{zhao2014exploratory}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Zhao}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Grossklags}}, \
-  and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Chen}},\ }in\
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Mingyi}\ \bibnamefont
+  {Zhao}}, \bibinfo {author} {\bibfnamefont {Jens}\ \bibnamefont {Grossklags}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Kai}\ \bibnamefont {Chen}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {An exploratory study of
+  white hat behaviors in a web vulnerability disclosure program},}\ }in\
   \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of the 2014 ACM
   Workshop on Security Information Workers}}}\ (\bibinfo {organization} {ACM},\
   \bibinfo {year} {2014})\ pp.\ \bibinfo {pages} {51--58}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhao}\ \emph {et~al.}(2015)\citenamefont {Zhao},
   \citenamefont {Grossklags},\ and\ \citenamefont {Liu}}]{zhao2015empirical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Zhao}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Grossklags}}, \
-  and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Liu}},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of the 22nd ACM
-  SIGSAC Conference on Computer and Communications Security}}}\ (\bibinfo
-  {organization} {ACM},\ \bibinfo {year} {2015})\ pp.\ \bibinfo {pages}
-  {1105--1117}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Mingyi}\ \bibnamefont
+  {Zhao}}, \bibinfo {author} {\bibfnamefont {Jens}\ \bibnamefont {Grossklags}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Peng}\ \bibnamefont {Liu}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {An empirical study of web
+  vulnerability discovery ecosystems},}\ }in\ \href@noop {} {\emph {\bibinfo
+  {booktitle} {Proceedings of the 22nd ACM SIGSAC Conference on Computer and
+  Communications Security}}}\ (\bibinfo {organization} {ACM},\ \bibinfo {year}
+  {2015})\ pp.\ \bibinfo {pages} {1105--1117}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhao}\ and\ \citenamefont
   {Liu}(2016)}]{zhao2016empirical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Zhao}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Liu}},\
-  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {International Symposium on
-  Engineering Secure Software and Systems (ESSoS)}}}\ (\bibinfo {year}
-  {2016})\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Mingyi}\ \bibnamefont
+  {Zhao}}\ and\ \bibinfo {author} {\bibfnamefont {Peng}\ \bibnamefont {Liu}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Empirical analysis and
+  modeling of black-box mutational fuzzing},}\ }in\ \href@noop {} {\emph
+  {\bibinfo {booktitle} {International Symposium on Engineering Secure Software
+  and Systems (ESSoS)}}}\ (\bibinfo {year} {2016})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Littlewood}\ and\ \citenamefont
   {Verrall}(1973)}]{littlewood1973bayesian}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Littlewood}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Verrall}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Applied Statistics}\ ,\ \bibinfo {pages} {332}} (\bibinfo {year}
-  {1973})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bev}\ \bibnamefont
+  {Littlewood}}\ and\ \bibinfo {author} {\bibfnamefont {JL}~\bibnamefont
+  {Verrall}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A bayesian
+  reliability growth model for computer software},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Applied Statistics}\ ,\ \bibinfo {pages}
+  {332--346}} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Littlewood}\ and\ \citenamefont
   {Mayne}(1989)}]{littlewood1989predicting}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Littlewood}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Mayne}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Philosophical Transactions of the Royal Society of London A: Mathematical,
-  Physical and Engineering Sciences}\ }\textbf {\bibinfo {volume} {327}},\
-  \bibinfo {pages} {513} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B}~\bibnamefont
+  {Littlewood}}\ and\ \bibinfo {author} {\bibfnamefont {AJ}~\bibnamefont
+  {Mayne}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Predicting
+  software reliability [and discussion]},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Philosophical Transactions of the Royal
+  Society of London A: Mathematical, Physical and Engineering Sciences}\
+  }\textbf {\bibinfo {volume} {327}},\ \bibinfo {pages} {513--527} (\bibinfo
+  {year} {1989})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Miller}\ \emph {et~al.}(1990)\citenamefont {Miller},
   \citenamefont {Fredriksen},\ and\ \citenamefont {So}}]{miller1990empirical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
-  {Miller}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Fredriksen}},
-  \ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {So}},\ }\href@noop
-  {} {\bibfield  {journal} {\bibinfo  {journal} {Communications of the ACM}\
-  }\textbf {\bibinfo {volume} {33}},\ \bibinfo {pages} {32} (\bibinfo {year}
-  {1990})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Barton~P}\
+  \bibnamefont {Miller}}, \bibinfo {author} {\bibfnamefont {Louis}\
+  \bibnamefont {Fredriksen}}, \ and\ \bibinfo {author} {\bibfnamefont {Bryan}\
+  \bibnamefont {So}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {An
+  empirical study of the reliability of {UNIX} utilities},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Communications of the ACM}\
+  }\textbf {\bibinfo {volume} {33}},\ \bibinfo {pages} {32--44} (\bibinfo
+  {year} {1990})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Avgerinos}\ \emph {et~al.}(2014)\citenamefont
   {Avgerinos}, \citenamefont {Rebert}, \citenamefont {Cha},\ and\ \citenamefont
   {Brumley}}]{avgerinos2014enhancing}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Avgerinos}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Rebert}},
-  \bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont {Cha}}, \ and\
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Brumley}},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of the 36th
-  International Conference on Software Engineering}}}\ (\bibinfo {organization}
-  {ACM},\ \bibinfo {year} {2014})\ pp.\ \bibinfo {pages}
-  {1083--1094}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Thanassis}\
+  \bibnamefont {Avgerinos}}, \bibinfo {author} {\bibfnamefont {Alexandre}\
+  \bibnamefont {Rebert}}, \bibinfo {author} {\bibfnamefont {Sang~Kil}\
+  \bibnamefont {Cha}}, \ and\ \bibinfo {author} {\bibfnamefont {David}\
+  \bibnamefont {Brumley}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Enhancing symbolic execution with veritesting},}\ }in\ \href@noop {} {\emph
+  {\bibinfo {booktitle} {Proceedings of the 36th International Conference on
+  Software Engineering}}}\ (\bibinfo {organization} {ACM},\ \bibinfo {year}
+  {2014})\ pp.\ \bibinfo {pages} {1083--1094}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Maillart}\ \emph {et~al.}(2008)\citenamefont
   {Maillart}, \citenamefont {Sornette}, \citenamefont {Spaeth},\ and\
   \citenamefont {Von~Krogh}}]{maillart2008empirical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Maillart}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Sornette}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Spaeth}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {G.}~\bibnamefont {Von~Krogh}},\ }\href@noop {}
-  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
-  }\textbf {\bibinfo {volume} {101}},\ \bibinfo {pages} {218701} (\bibinfo
-  {year} {2008})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T}~\bibnamefont
+  {Maillart}}, \bibinfo {author} {\bibfnamefont {D}~\bibnamefont {Sornette}},
+  \bibinfo {author} {\bibfnamefont {S}~\bibnamefont {Spaeth}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {G}~\bibnamefont {Von~Krogh}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Empirical tests of zipf’s law mechanism in open
+  source linux distribution},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {101}},\
+  \bibinfo {pages} {218701} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Saichev}\ \emph {et~al.}(2009)\citenamefont
   {Saichev}, \citenamefont {Malevergne},\ and\ \citenamefont
   {Sornette}}]{saichev2009theory}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~I.}\ \bibnamefont
-  {Saichev}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Malevergne}},
-  \ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Sornette}},\
-  }\href@noop {} {\emph {\bibinfo {title} {Theory of Zipf's law and beyond}}},\
-  Vol.\ \bibinfo {volume} {632}\ (\bibinfo  {publisher} {Springer Science \&
-  Business Media},\ \bibinfo {year} {2009})\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Alexander~I}\
+  \bibnamefont {Saichev}}, \bibinfo {author} {\bibfnamefont {Yannick}\
+  \bibnamefont {Malevergne}}, \ and\ \bibinfo {author} {\bibfnamefont {Didier}\
+  \bibnamefont {Sornette}},\ }\href@noop {} {\emph {\bibinfo {title} {Theory of
+  Zipf's law and beyond}}},\ Vol.\ \bibinfo {volume} {632}\ (\bibinfo
+  {publisher} {Springer Science \& Business Media},\ \bibinfo {year}
+  {2009})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Brady}\ \emph {et~al.}(1999)\citenamefont {Brady},
   \citenamefont {Anderson},\ and\ \citenamefont {Ball}}]{brady1999murphy}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
-  {Brady}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Anderson}}, \
-  and\ \bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont {Ball}},\
-  }\href@noop {} {\emph {\bibinfo {title} {Murphy's law, the fitness of
-  evolving species, and the limits of software reliability}}},\ \bibinfo
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Robert~M}\
+  \bibnamefont {Brady}}, \bibinfo {author} {\bibfnamefont {Ross}\ \bibnamefont
+  {Anderson}}, \ and\ \bibinfo {author} {\bibfnamefont {Robin~C}\ \bibnamefont
+  {Ball}},\ }\href@noop {} {\emph {\bibinfo {title} {Murphy's law, the fitness
+  of evolving species, and the limits of software reliability}}},\ \bibinfo
   {number} {471}\ (\bibinfo  {publisher} {University of Cambridge, Computer
   Laboratory},\ \bibinfo {year} {1999})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hulkko}\ and\ \citenamefont
   {Abrahamsson}(2005)}]{hulkko2005multiple}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Hulkko}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Abrahamsson}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings
-  of the 27th International Conference on Software Engineering}}}\ (\bibinfo
-  {organization} {ACM},\ \bibinfo {year} {2005})\ pp.\ \bibinfo {pages}
-  {495--504}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hanna}\ \bibnamefont
+  {Hulkko}}\ and\ \bibinfo {author} {\bibfnamefont {Pekka}\ \bibnamefont
+  {Abrahamsson}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A multiple
+  case study on the impact of pair programming on product quality},}\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of the 27th
+  International Conference on Software Engineering}}}\ (\bibinfo {organization}
+  {ACM},\ \bibinfo {year} {2005})\ pp.\ \bibinfo {pages} {495--504}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Smith}\ \emph {et~al.}(2002)\citenamefont {Smith},
   \citenamefont {Yurcik},\ and\ \citenamefont {Doss}}]{smith2002ethical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Smith}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Yurcik}}, \
-  and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Doss}},\ }in\
-  \href@noop {} {\emph {\bibinfo {booktitle} {International Symposium on
-  Technology and Society (ISTAS'02)}}}\ (\bibinfo {organization} {IEEE},\
-  \bibinfo {year} {2002})\ pp.\ \bibinfo {pages} {374--379}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bryan}\ \bibnamefont
+  {Smith}}, \bibinfo {author} {\bibfnamefont {William}\ \bibnamefont {Yurcik}},
+  \ and\ \bibinfo {author} {\bibfnamefont {David}\ \bibnamefont {Doss}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Ethical hacking: the
+  security justification redux},}\ }in\ \href@noop {} {\emph {\bibinfo
+  {booktitle} {International Symposium on Technology and Society (ISTAS'02)}}}\
+  (\bibinfo {organization} {IEEE},\ \bibinfo {year} {2002})\ pp.\ \bibinfo
+  {pages} {374--379}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Saleem}(2006)}]{saleem2006ethical}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
-  {Saleem}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of
-  the 3rd annual conference on Information security curriculum development}}}\
-  (\bibinfo {organization} {ACM},\ \bibinfo {year} {2006})\ pp.\ \bibinfo
-  {pages} {201--203}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Syed~A}\ \bibnamefont
+  {Saleem}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Ethical hacking
+  as a risk management technique},}\ }in\ \href@noop {} {\emph {\bibinfo
+  {booktitle} {Proceedings of the 3rd annual conference on Information security
+  curriculum development}}}\ (\bibinfo {organization} {ACM},\ \bibinfo {year}
+  {2006})\ pp.\ \bibinfo {pages} {201--203}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Bishop}(2007)}]{bishop2007penetration}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Bishop}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Security \& Privacy, IEEE}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo
-  {pages} {84} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Matt}\ \bibnamefont
+  {Bishop}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {About
+  penetration testing},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Security \& Privacy, IEEE}\ }\textbf {\bibinfo {volume} {5}},\
+  \bibinfo {pages} {84--87} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Arora}\ \emph {et~al.}(2008)\citenamefont {Arora},
   \citenamefont {Telang},\ and\ \citenamefont {Xu}}]{arora2008optimal}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Arora}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Telang}}, \
-  and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Xu}},\ }\href@noop
-  {} {\bibfield  {journal} {\bibinfo  {journal} {Management Science}\ }\textbf
-  {\bibinfo {volume} {54}},\ \bibinfo {pages} {642} (\bibinfo {year}
-  {2008})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ashish}\ \bibnamefont
+  {Arora}}, \bibinfo {author} {\bibfnamefont {Rahul}\ \bibnamefont {Telang}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Hao}\ \bibnamefont {Xu}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Optimal policy for software
+  vulnerability disclosure},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Management Science}\ }\textbf {\bibinfo {volume} {54}},\ \bibinfo
+  {pages} {642--656} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Raymond}(1999)}]{raymond1999cathedral}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
-  {Raymond}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Eric}\ \bibnamefont
+  {Raymond}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The cathedral
+  and the bazaar},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Knowledge, Technology \& Policy}\ }\textbf {\bibinfo {volume} {12}},\
-  \bibinfo {pages} {23} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+  \bibinfo {pages} {23--49} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hafiz}\ and\ \citenamefont
   {Fang}(2015)}]{hafiz2015game}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Hafiz}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Fang}},\
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Munawar}\ \bibnamefont
+  {Hafiz}}\ and\ \bibinfo {author} {\bibfnamefont {Ming}\ \bibnamefont
+  {Fang}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Game of
+  detections: how are security vulnerabilities discovered in the wild?}}\
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Empirical Software
-  Engineering}\ ,\ \bibinfo {pages} {1}} (\bibinfo {year} {2015})}\BibitemShut
-  {NoStop}%
+  Engineering}\ ,\ \bibinfo {pages} {1--40}} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Camp}\ and\ \citenamefont
   {Wolfram}(2004)}]{camp2004pricing}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont
-  {Camp}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Wolfram}},\
-  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Economics of Information
-  Security}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {2004})\
-  pp.\ \bibinfo {pages} {17--34}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L~Jean}\ \bibnamefont
+  {Camp}}\ and\ \bibinfo {author} {\bibfnamefont {Catherine}\ \bibnamefont
+  {Wolfram}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Pricing
+  security},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Economics of
+  Information Security}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year}
+  {2004})\ pp.\ \bibinfo {pages} {17--34}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schechter}(2002)}]{schechter2002buy}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Schechter}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Stuart}\ \bibnamefont
+  {Schechter}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {How to buy
+  better testing using competition to get the most security and robustness for
+  your dollar},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
   {Infrastructure Security}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo
   {year} {2002})\ pp.\ \bibinfo {pages} {73--87}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kannan}\ and\ \citenamefont
   {Telang}(2005)}]{kannan2005market}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Kannan}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Telang}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Management Science}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages}
-  {726} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Karthik}\ \bibnamefont
+  {Kannan}}\ and\ \bibinfo {author} {\bibfnamefont {Rahul}\ \bibnamefont
+  {Telang}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Market for
+  software vulnerabilities? think again},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Management Science}\ }\textbf {\bibinfo
+  {volume} {51}},\ \bibinfo {pages} {726--740} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {McKinney}(2007)}]{mckinney2007vulnerability}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {McKinney}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {David}\ \bibnamefont
+  {McKinney}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Vulnerability
+  bazaar},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Security \& Privacy, IEEE}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo
-  {pages} {69} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+  {pages} {69--73} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ransbotham}\ \emph {et~al.}(2008)\citenamefont
   {Ransbotham}, \citenamefont {Mitra},\ and\ \citenamefont
   {Ramsey}}]{ransbotham2008markets}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Ransbotham}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Mitra}}, \
-  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ramsey}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ICIS 2008
-  Proceedings}\ ,\ \bibinfo {pages} {24}} (\bibinfo {year} {2008})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Sam}\ \bibnamefont
+  {Ransbotham}}, \bibinfo {author} {\bibfnamefont {Sabyasachi}\ \bibnamefont
+  {Mitra}}, \ and\ \bibinfo {author} {\bibfnamefont {Jon}\ \bibnamefont
+  {Ramsey}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Are markets for
+  vulnerabilities effective?}}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {ICIS 2008 Proceedings}\ ,\ \bibinfo {pages} {24}} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Algarni}\ and\ \citenamefont
   {Malaiya}(2014)}]{algarni2014software}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Algarni}}\ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Malaiya}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {International Journal of Computer, Information Science and Engineering}\
-  }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages} {71} (\bibinfo {year}
-  {2014})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A}~\bibnamefont
+  {Algarni}}\ and\ \bibinfo {author} {\bibfnamefont {Y}~\bibnamefont
+  {Malaiya}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Software
+  vulnerability markets: Discoverers and buyers},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {International Journal of Computer,
+  Information Science and Engineering}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {71--81} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ozment}(2004)}]{ozment2004bug}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Ozment}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Third Workshop
-  on the Economics of Information Security}}}\ (\bibinfo {year} {2004})\ pp.\
-  \bibinfo {pages} {19--26}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Andy}\ \bibnamefont
+  {Ozment}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Bug auctions:
+  Vulnerability markets reconsidered},}\ }in\ \href@noop {} {\emph {\bibinfo
+  {booktitle} {Third Workshop on the Economics of Information Security}}}\
+  (\bibinfo {year} {2004})\ pp.\ \bibinfo {pages} {19--26}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Milgrom}\ and\ \citenamefont
   {Weber}(1982)}]{milgrom1982theory}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont
-  {Milgrom}}\ and\ \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
-  {Weber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Econometrica: Journal of the Econometric Society}\ ,\ \bibinfo {pages}
-  {1089}} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Paul~R}\ \bibnamefont
+  {Milgrom}}\ and\ \bibinfo {author} {\bibfnamefont {Robert~J}\ \bibnamefont
+  {Weber}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A theory of
+  auctions and competitive bidding},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Econometrica: Journal of the Econometric Society}\ ,\
+  \bibinfo {pages} {1089--1122}} (\bibinfo {year} {1982})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Pandey}\ and\ \citenamefont
   {Snekkenes}(2014)}]{pandey2014assessment}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Pandey}}\ and\ \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont
-  {Snekkenes}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {16th IEEE
-  International Conference on High Performance and Communications, WiP
-  track}}}\ (\bibinfo {year} {2014})\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Pankaj}\ \bibnamefont
+  {Pandey}}\ and\ \bibinfo {author} {\bibfnamefont {Einar~Arthur}\ \bibnamefont
+  {Snekkenes}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {An assessment
+  of market methods for information security risk management},}\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {16th IEEE International
+  Conference on High Performance and Communications, WiP track}}}\ (\bibinfo
+  {year} {2014})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Maillart}\ \emph {et~al.}(2011)\citenamefont
   {Maillart}, \citenamefont {Sornette}, \citenamefont {Frei}, \citenamefont
   {Duebendorfer},\ and\ \citenamefont {Saichev}}]{maillart2011quantification}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
-  {Maillart}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Sornette}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Frei}}, \bibinfo {author}
-  {\bibfnamefont {T.}~\bibnamefont {Duebendorfer}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {Saichev}},\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf {\bibinfo
-  {volume} {83}},\ \bibinfo {pages} {056101} (\bibinfo {year}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
+  {Maillart}}, \bibinfo {author} {\bibfnamefont {Didier}\ \bibnamefont
+  {Sornette}}, \bibinfo {author} {\bibfnamefont {Stefan}\ \bibnamefont {Frei}},
+  \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont {Duebendorfer}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Alexander}\ \bibnamefont {Saichev}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Quantification of deviations
+  from rationality with heavy tails in human dynamics},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
+  {\bibinfo {volume} {83}},\ \bibinfo {pages} {056101} (\bibinfo {year}
   {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kesten}(1973)}]{kesten1973random}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Kesten}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta
-  Mathematica}\ }\textbf {\bibinfo {volume} {131}},\ \bibinfo {pages} {207}
-  (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Harry}\ \bibnamefont
+  {Kesten}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Random
+  difference equations and renewal theory for products of random matrices},}\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta Mathematica}\
+  }\textbf {\bibinfo {volume} {131}},\ \bibinfo {pages} {207--248} (\bibinfo
+  {year} {1973})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sornette}\ and\ \citenamefont
   {Cont}(1997)}]{sornette1997convergent}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Sornette}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Cont}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
-  de Physique I}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {431}
-  (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Didier}\ \bibnamefont
+  {Sornette}}\ and\ \bibinfo {author} {\bibfnamefont {Rama}\ \bibnamefont
+  {Cont}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Convergent
+  multiplicative processes repelled from zero: power laws and truncated power
+  laws},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  de Physique I}\ }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages}
+  {431--444} (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Bernoulli}(1954)}]{bernoulli1954exposition}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Bernoulli}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Econometrica: Journal of the Econometric Society}\ ,\ \bibinfo {pages} {23}}
-  (\bibinfo {year} {1954})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont
+  {Bernoulli}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Exposition of
+  a new theory on the measurement of risk},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Econometrica: Journal of the Econometric
+  Society}\ ,\ \bibinfo {pages} {23--36}} (\bibinfo {year} {1954})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Loewenstein}\ and\ \citenamefont
   {Prelec}(1992)}]{loewenstein1992anomalies}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Loewenstein}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Prelec}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
-  Quarterly Journal of Economics}\ ,\ \bibinfo {pages} {573}} (\bibinfo {year}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {George}\ \bibnamefont
+  {Loewenstein}}\ and\ \bibinfo {author} {\bibfnamefont {Drazen}\ \bibnamefont
+  {Prelec}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Anomalies in
+  intertemporal choice: Evidence and an interpretation},}\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Quarterly Journal of
+  Economics}\ ,\ \bibinfo {pages} {573--597}} (\bibinfo {year}
   {1992})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sornette}\ \emph {et~al.}(2014)\citenamefont
   {Sornette}, \citenamefont {Maillart},\ and\ \citenamefont
   {Ghezzi}}]{sornette2014much}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Sornette}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Maillart}},
-  \ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Ghezzi}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Plos one}\
-  }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {e103023} (\bibinfo
-  {year} {2014})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Didier}\ \bibnamefont
+  {Sornette}}, \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
+  {Maillart}}, \ and\ \bibinfo {author} {\bibfnamefont {Giacomo}\ \bibnamefont
+  {Ghezzi}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {How much is the
+  whole really more than the sum of its parts? 1? 1= 2.5: Superlinear
+  productivity in collective group actions},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Plos one}\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {e103023} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Goetzmann}\ and\ \citenamefont
   {Kumar}(2008)}]{goetzmann2008equity}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~N.}\ \bibnamefont
-  {Goetzmann}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Kumar}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Review
-  of Finance}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo {pages} {433}
-  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zetter}()}]{moussouris2016}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {William~N}\
+  \bibnamefont {Goetzmann}}\ and\ \bibinfo {author} {\bibfnamefont {Alok}\
+  \bibnamefont {Kumar}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Equity portfolio diversification},}\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Review of Finance}\ }\textbf {\bibinfo {volume} {12}},\
+  \bibinfo {pages} {433--463} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zetter}(2016)}]{moussouris2016}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kim}\ \bibnamefont
   {Zetter}},\ }\href@noop {} {\enquote {\bibinfo {title} {Bug bounty guru katie
-  moussouris will help hackers and companies play nice},}\ }\bibinfo {note}
-  {{\it
+  moussouris will help hackers and companies play nice},}\ } (\bibinfo {year}
+  {2016}),\ \bibinfo {note} {{\it
   https://www.wired.com/2016/04/bug-bounty-guru-katie-moussouris-will-help-hackers-companies-play-nice/}.
   Last accessed May 9th, 2016.}\BibitemShut {Stop}%
 \bibitem [{\citenamefont {Coase}(1937)}]{coase1937}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~H.}\ \bibnamefont
-  {Coase}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Economica}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {386}
-  (\bibinfo {year} {1937})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ronald~H}\
+  \bibnamefont {Coase}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The
+  nature of the firm},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Economica}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages}
+  {386--405} (\bibinfo {year} {1937})}\BibitemShut {NoStop}%
 \end{thebibliography}%
