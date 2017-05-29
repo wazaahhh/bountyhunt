@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{46}%
+\begin{thebibliography}{51}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -133,6 +133,14 @@
   Conference on Human Factors in Computing Systems}}}\ (\bibinfo {organization}
   {ACM},\ \bibinfo {year} {2011})\ pp.\ \bibinfo {pages}
   {1865--1874}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Levy}(2010)}]{Levy84}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Steven}\ \bibnamefont
+  {Levy}},\ }\href {http://www.worldcat.org/isbn/0141000511} {\emph {\bibinfo
+  {title} {Hackers: Heroes of the Computer Revolution}}},\ \bibinfo {edition}
+  {3rd}\ ed.,\ edited by\ \bibinfo {editor} {\bibnamefont {O'Reilly}}\
+  (\bibinfo  {publisher} {O'Reilly},\ \bibinfo {year} {2010})\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {B{\"o}hme}(2006)}]{bohme2006comparison}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rainer}\ \bibnamefont
@@ -175,6 +183,26 @@
   {booktitle} {Proceedings of the 22nd ACM SIGSAC Conference on Computer and
   Communications Security}}}\ (\bibinfo {organization} {ACM},\ \bibinfo {year}
   {2015})\ pp.\ \bibinfo {pages} {1105--1117}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bishop}\ and\ \citenamefont
+  {Bloomfield}(1996)}]{bishop1996conservative}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Peter}\ \bibnamefont
+  {Bishop}}\ and\ \bibinfo {author} {\bibfnamefont {Robin}\ \bibnamefont
+  {Bloomfield}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A
+  conservative theory for long-term reliability-growth prediction [of
+  software]},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Reliability, IEEE Transactions on}\ }\textbf {\bibinfo {volume} {45}},\
+  \bibinfo {pages} {550--560} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brady}\ \emph {et~al.}(1999)\citenamefont {Brady},
+  \citenamefont {Anderson},\ and\ \citenamefont {Ball}}]{brady1999murphy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Robert~M}\
+  \bibnamefont {Brady}}, \bibinfo {author} {\bibfnamefont {Ross}\ \bibnamefont
+  {Anderson}}, \ and\ \bibinfo {author} {\bibfnamefont {Robin~C}\ \bibnamefont
+  {Ball}},\ }\href@noop {} {\emph {\bibinfo {title} {Murphy's law, the fitness
+  of evolving species, and the limits of software reliability}}},\ \bibinfo
+  {number} {471}\ (\bibinfo  {publisher} {University of Cambridge, Computer
+  Laboratory},\ \bibinfo {year} {1999})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhao}\ and\ \citenamefont
   {Liu}(2016)}]{zhao2016empirical}%
   \BibitemOpen
@@ -251,16 +279,6 @@
   Zipf's law and beyond}}},\ Vol.\ \bibinfo {volume} {632}\ (\bibinfo
   {publisher} {Springer Science \& Business Media},\ \bibinfo {year}
   {2009})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Brady}\ \emph {et~al.}(1999)\citenamefont {Brady},
-  \citenamefont {Anderson},\ and\ \citenamefont {Ball}}]{brady1999murphy}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Robert~M}\
-  \bibnamefont {Brady}}, \bibinfo {author} {\bibfnamefont {Ross}\ \bibnamefont
-  {Anderson}}, \ and\ \bibinfo {author} {\bibfnamefont {Robin~C}\ \bibnamefont
-  {Ball}},\ }\href@noop {} {\emph {\bibinfo {title} {Murphy's law, the fitness
-  of evolving species, and the limits of software reliability}}},\ \bibinfo
-  {number} {471}\ (\bibinfo  {publisher} {University of Cambridge, Computer
-  Laboratory},\ \bibinfo {year} {1999})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hulkko}\ and\ \citenamefont
   {Abrahamsson}(2005)}]{hulkko2005multiple}%
   \BibitemOpen
@@ -308,6 +326,16 @@
   vulnerability disclosure},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
   {journal} {Management Science}\ }\textbf {\bibinfo {volume} {54}},\ \bibinfo
   {pages} {642--656} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cavusoglu}\ and\ \citenamefont
+  {Raghunathan}(2007)}]{cavusoglu2007efficiency}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hasan}\ \bibnamefont
+  {Cavusoglu}}\ and\ \bibinfo {author} {\bibfnamefont {S}~\bibnamefont
+  {Raghunathan}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Efficiency
+  of vulnerability disclosure mechanisms to disseminate vulnerability
+  knowledge},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {IEEE
+  Transactions on Software Engineering}\ }\textbf {\bibinfo {volume} {33}}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Raymond}(1999)}]{raymond1999cathedral}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Eric}\ \bibnamefont
@@ -408,6 +436,21 @@
   \href@noop {} {\emph {\bibinfo {booktitle} {16th IEEE International
   Conference on High Performance and Communications, WiP track}}}\ (\bibinfo
   {year} {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lakhani}\ and\ \citenamefont
+  {Wolf}(2005)}]{lakhani2005htu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Karim}\ \bibnamefont
+  {Lakhani}}\ and\ \bibinfo {author} {\bibfnamefont {Robert}\ \bibnamefont
+  {Wolf}},\ }\enquote {\bibinfo {title} {{Why Hackers Do What They Do:
+  Understanding Motivation and Effort in Free/Open Source Software
+  Projects.}}}\ in\ \href@noop {} {\emph {\bibinfo {booktitle} {Perspectives on
+  Free and Open Source Software}}},\ \bibinfo {editor} {edited by\ \bibinfo
+  {editor} {\bibfnamefont {Joesph}\ \bibnamefont {Feller}}, \bibinfo {editor}
+  {\bibfnamefont {Brian}\ \bibnamefont {Fitzgerald}}, \bibinfo {editor}
+  {\bibfnamefont {Scott}\ \bibnamefont {Hissam}}, \ and\ \bibinfo {editor}
+  {\bibfnamefont {Karim}\ \bibnamefont {Lakhani}}}\ (\bibinfo  {publisher} {MIT
+  Press},\ \bibinfo {address} {Cambridge},\ \bibinfo {year} {2005})\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Maillart}\ \emph {et~al.}(2011)\citenamefont
   {Maillart}, \citenamefont {Sornette}, \citenamefont {Frei}, \citenamefont
   {Duebendorfer},\ and\ \citenamefont {Saichev}}]{maillart2011quantification}%
@@ -422,6 +465,25 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
   {\bibinfo {volume} {83}},\ \bibinfo {pages} {056101} (\bibinfo {year}
   {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sornette}\ \emph {et~al.}(2014)\citenamefont
+  {Sornette}, \citenamefont {Maillart},\ and\ \citenamefont
+  {Ghezzi}}]{sornette2014much}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Didier}\ \bibnamefont
+  {Sornette}}, \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
+  {Maillart}}, \ and\ \bibinfo {author} {\bibfnamefont {Giacomo}\ \bibnamefont
+  {Ghezzi}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {How much is the
+  whole really more than the sum of its parts? 1? 1= 2.5: Superlinear
+  productivity in collective group actions},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Plos one}\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {e103023} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Coase}(1937)}]{coase1937}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ronald~H}\
+  \bibnamefont {Coase}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The
+  nature of the firm},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Economica}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages}
+  {386--405} (\bibinfo {year} {1937})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kesten}(1973)}]{kesten1973random}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Harry}\ \bibnamefont
@@ -448,6 +510,14 @@
   {journal} {\bibinfo  {journal} {Econometrica: Journal of the Econometric
   Society}\ ,\ \bibinfo {pages} {23--36}} (\bibinfo {year} {1954})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Zetter}(2016)}]{moussouris2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kim}\ \bibnamefont
+  {Zetter}},\ }\href@noop {} {\enquote {\bibinfo {title} {Bug bounty guru katie
+  moussouris will help hackers and companies play nice},}\ } (\bibinfo {year}
+  {2016}),\ \bibinfo {note} {{\it
+  https://www.wired.com/2016/04/bug-bounty-guru-katie-moussouris-will-help-hackers-companies-play-nice/}.
+  Last accessed May 9th, 2016.}\BibitemShut {Stop}%
 \bibitem [{\citenamefont {Loewenstein}\ and\ \citenamefont
   {Prelec}(1992)}]{loewenstein1992anomalies}%
   \BibitemOpen
@@ -458,18 +528,19 @@
   {\bibfield  {journal} {\bibinfo  {journal} {The Quarterly Journal of
   Economics}\ ,\ \bibinfo {pages} {573--597}} (\bibinfo {year}
   {1992})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Sornette}\ \emph {et~al.}(2014)\citenamefont
-  {Sornette}, \citenamefont {Maillart},\ and\ \citenamefont
-  {Ghezzi}}]{sornette2014much}%
+\bibitem [{\citenamefont {Clauset}\ \emph {et~al.}(2009)\citenamefont
+  {Clauset}, \citenamefont {Shalizi},\ and\ \citenamefont
+  {Newman}}]{Clauset2009PowerLaw}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Didier}\ \bibnamefont
-  {Sornette}}, \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
-  {Maillart}}, \ and\ \bibinfo {author} {\bibfnamefont {Giacomo}\ \bibnamefont
-  {Ghezzi}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {How much is the
-  whole really more than the sum of its parts? 1? 1= 2.5: Superlinear
-  productivity in collective group actions},}\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Plos one}\ }\textbf {\bibinfo {volume} {9}},\
-  \bibinfo {pages} {e103023} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Aaron}\ \bibnamefont
+  {Clauset}}, \bibinfo {author} {\bibfnamefont {Cosma~R.}\ \bibnamefont
+  {Shalizi}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~E.~J.}\ \bibnamefont
+  {Newman}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Power-Law
+  Distributions in Empirical Data}},}\ }\href {\doibase 10.1137/070710111}
+  {\bibfield  {journal} {\bibinfo  {journal} {SIAM Review}\ }\textbf {\bibinfo
+  {volume} {51}},\ \bibinfo {pages} {661--703} (\bibinfo {year} {2009})},\
+  \Eprint {http://arxiv.org/abs/0706.1062} {arXiv:0706.1062} \BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Goetzmann}\ and\ \citenamefont
   {Kumar}(2008)}]{goetzmann2008equity}%
   \BibitemOpen
@@ -479,21 +550,6 @@
   {Equity portfolio diversification},}\ }\href@noop {} {\bibfield  {journal}
   {\bibinfo  {journal} {Review of Finance}\ }\textbf {\bibinfo {volume} {12}},\
   \bibinfo {pages} {433--463} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zetter}(2016)}]{moussouris2016}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kim}\ \bibnamefont
-  {Zetter}},\ }\href@noop {} {\enquote {\bibinfo {title} {Bug bounty guru katie
-  moussouris will help hackers and companies play nice},}\ } (\bibinfo {year}
-  {2016}),\ \bibinfo {note} {{\it
-  https://www.wired.com/2016/04/bug-bounty-guru-katie-moussouris-will-help-hackers-companies-play-nice/}.
-  Last accessed May 9th, 2016.}\BibitemShut {Stop}%
-\bibitem [{\citenamefont {Coase}(1937)}]{coase1937}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ronald~H}\
-  \bibnamefont {Coase}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The
-  nature of the firm},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {Economica}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages}
-  {386--405} (\bibinfo {year} {1937})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhao}\ \emph {et~al.}(2016)\citenamefont {Zhao},
   \citenamefont {Laszka}, \citenamefont {Maillart},\ and\ \citenamefont
   {Grossklags}}]{zhao2016crowdsourced}%
