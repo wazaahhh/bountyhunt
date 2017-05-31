@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{51}%
+\begin{thebibliography}{52}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,6 +50,16 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {Brady}\ \emph {et~al.}(1999)\citenamefont {Brady},
+  \citenamefont {Anderson},\ and\ \citenamefont {Ball}}]{brady1999murphy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Robert~M}\
+  \bibnamefont {Brady}}, \bibinfo {author} {\bibfnamefont {Ross}\ \bibnamefont
+  {Anderson}}, \ and\ \bibinfo {author} {\bibfnamefont {Robin~C}\ \bibnamefont
+  {Ball}},\ }\href@noop {} {\emph {\bibinfo {title} {Murphy's law, the fitness
+  of evolving species, and the limits of software reliability}}},\ \bibinfo
+  {number} {471}\ (\bibinfo  {publisher} {University of Cambridge, Computer
+  Laboratory},\ \bibinfo {year} {1999})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Greenberg}(2016)}]{Pentagon}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Andy}\ \bibnamefont
@@ -193,16 +203,6 @@
   software]},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Reliability, IEEE Transactions on}\ }\textbf {\bibinfo {volume} {45}},\
   \bibinfo {pages} {550--560} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Brady}\ \emph {et~al.}(1999)\citenamefont {Brady},
-  \citenamefont {Anderson},\ and\ \citenamefont {Ball}}]{brady1999murphy}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Robert~M}\
-  \bibnamefont {Brady}}, \bibinfo {author} {\bibfnamefont {Ross}\ \bibnamefont
-  {Anderson}}, \ and\ \bibinfo {author} {\bibfnamefont {Robin~C}\ \bibnamefont
-  {Ball}},\ }\href@noop {} {\emph {\bibinfo {title} {Murphy's law, the fitness
-  of evolving species, and the limits of software reliability}}},\ \bibinfo
-  {number} {471}\ (\bibinfo  {publisher} {University of Cambridge, Computer
-  Laboratory},\ \bibinfo {year} {1999})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhao}\ and\ \citenamefont
   {Liu}(2016)}]{zhao2016empirical}%
   \BibitemOpen
@@ -451,9 +451,26 @@
   {\bibfnamefont {Karim}\ \bibnamefont {Lakhani}}}\ (\bibinfo  {publisher} {MIT
   Press},\ \bibinfo {address} {Cambridge},\ \bibinfo {year} {2005})\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Maillart}\ \emph {et~al.}(2011)\citenamefont
-  {Maillart}, \citenamefont {Sornette}, \citenamefont {Frei}, \citenamefont
-  {Duebendorfer},\ and\ \citenamefont {Saichev}}]{maillart2011quantification}%
+\bibitem [{\citenamefont {Maillart}\ \emph
+  {et~al.}(2011{\natexlab{a}})\citenamefont {Maillart}, \citenamefont
+  {Sornette}, \citenamefont {Frei}, \citenamefont {Duebendorfer},\ and\
+  \citenamefont {Saichev}}]{maillart2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
+  {Maillart}}, \bibinfo {author} {\bibfnamefont {Didier}\ \bibnamefont
+  {Sornette}}, \bibinfo {author} {\bibfnamefont {Stefan}\ \bibnamefont {Frei}},
+  \bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont {Duebendorfer}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Alexander~I.}\ \bibnamefont
+  {Saichev}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Quantification
+  of deviations from rationality with heavy tails in human dynamics}},}\ }\href
+  {\doibase 10.1103/physreve.83.056101} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo
+  {pages} {056101+} (\bibinfo {year} {2011}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Maillart}\ \emph
+  {et~al.}(2011{\natexlab{b}})\citenamefont {Maillart}, \citenamefont
+  {Sornette}, \citenamefont {Frei}, \citenamefont {Duebendorfer},\ and\
+  \citenamefont {Saichev}}]{maillart2011quantification}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Thomas}\ \bibnamefont
   {Maillart}}, \bibinfo {author} {\bibfnamefont {Didier}\ \bibnamefont
@@ -464,7 +481,7 @@
   from rationality with heavy tails in human dynamics},}\ }\href@noop {}
   {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
   {\bibinfo {volume} {83}},\ \bibinfo {pages} {056101} (\bibinfo {year}
-  {2011})}\BibitemShut {NoStop}%
+  {2011}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sornette}\ \emph {et~al.}(2014)\citenamefont
   {Sornette}, \citenamefont {Maillart},\ and\ \citenamefont
   {Ghezzi}}]{sornette2014much}%

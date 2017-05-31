@@ -25,45 +25,45 @@ Control: page (1) range
 Control: year (0) verbatim
 Control: production of eprint (0) enabled
 Warning--empty chapter and pages in lakhani2005htu
-You've used 53 entries,
+You've used 54 entries,
             5847 wiz_defined-function locations,
-            1911 strings with 23506 characters,
-and the built_in function-call counts, 51337 in all, are:
-= -- 3551
-> -- 1083
-< -- 318
-+ -- 369
-- -- 249
-* -- 7497
-:= -- 5127
-add.period$ -- 97
-call.type$ -- 53
-change.case$ -- 255
+            1918 strings with 23807 characters,
+and the built_in function-call counts, 52617 in all, are:
+= -- 3627
+> -- 1124
+< -- 326
++ -- 382
+- -- 259
+* -- 7714
+:= -- 5246
+add.period$ -- 99
+call.type$ -- 54
+change.case$ -- 260
 chr.to.int$ -- 69
-cite$ -- 54
-duplicate$ -- 5018
-empty$ -- 4033
-format.name$ -- 620
-if$ -- 10068
-int.to.chr$ -- 1
-int.to.str$ -- 61
-missing$ -- 630
-newline$ -- 205
-num.names$ -- 152
-pop$ -- 2026
+cite$ -- 55
+duplicate$ -- 5135
+empty$ -- 4128
+format.name$ -- 643
+if$ -- 10321
+int.to.chr$ -- 2
+int.to.str$ -- 62
+missing$ -- 645
+newline$ -- 208
+num.names$ -- 155
+pop$ -- 2068
 preamble$ -- 1
-purify$ -- 204
+purify$ -- 208
 quote$ -- 0
-skip$ -- 1935
+skip$ -- 1976
 stack$ -- 0
-substring$ -- 1663
-swap$ -- 4499
-text.length$ -- 129
+substring$ -- 1697
+swap$ -- 4621
+text.length$ -- 134
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 685
+type$ -- 701
 warning$ -- 3
-while$ -- 198
+while$ -- 201
 width$ -- 0
-write$ -- 474
+write$ -- 483
 (There were 3 warnings)
