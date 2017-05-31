@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (0) verbatim
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{51}%
+\begin{thebibliography}{52}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -550,6 +550,12 @@
   {Equity portfolio diversification},}\ }\href@noop {} {\bibfield  {journal}
   {\bibinfo  {journal} {Review of Finance}\ }\textbf {\bibinfo {volume} {12}},\
   \bibinfo {pages} {433--463} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{Note1()}]{Note1}%
+  \BibitemOpen
+  \bibinfo {note} {The first known bug bounty is the reward check program
+  implemented by Donald Knuth in 1985 for debugging his book {\protect \it TeX:
+  The Program} ({\protect \it http://truetex.com/knuthchk.htm}).}\BibitemShut
+  {Stop}%
 \bibitem [{\citenamefont {Zhao}\ \emph {et~al.}(2016)\citenamefont {Zhao},
   \citenamefont {Laszka}, \citenamefont {Maillart},\ and\ \citenamefont
   {Grossklags}}]{zhao2016crowdsourced}%

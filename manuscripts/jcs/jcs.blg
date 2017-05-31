@@ -25,45 +25,45 @@ Control: page (1) range
 Control: year (0) verbatim
 Control: production of eprint (0) enabled
 Warning--empty chapter and pages in lakhani2005htu
-You've used 53 entries,
+You've used 54 entries,
             5847 wiz_defined-function locations,
-            1912 strings with 23549 characters,
-and the built_in function-call counts, 52132 in all, are:
-= -- 3572
+            1915 strings with 23754 characters,
+and the built_in function-call counts, 52396 in all, are:
+= -- 3604
 > -- 1117
 < -- 324
-+ -- 377
++ -- 379
 - -- 257
-* -- 7634
-:= -- 5193
-add.period$ -- 98
-call.type$ -- 53
-change.case$ -- 255
-chr.to.int$ -- 69
-cite$ -- 54
-duplicate$ -- 5109
-empty$ -- 4103
+* -- 7667
+:= -- 5226
+add.period$ -- 99
+call.type$ -- 54
+change.case$ -- 260
+chr.to.int$ -- 70
+cite$ -- 55
+duplicate$ -- 5127
+empty$ -- 4119
 format.name$ -- 639
-if$ -- 10226
+if$ -- 10275
 int.to.chr$ -- 1
-int.to.str$ -- 61
-missing$ -- 643
-newline$ -- 205
+int.to.str$ -- 62
+missing$ -- 644
+newline$ -- 208
 num.names$ -- 155
-pop$ -- 2063
+pop$ -- 2073
 preamble$ -- 1
-purify$ -- 204
+purify$ -- 208
 quote$ -- 0
-skip$ -- 1960
+skip$ -- 1971
 stack$ -- 0
-substring$ -- 1662
-swap$ -- 4585
+substring$ -- 1676
+swap$ -- 4598
 text.length$ -- 133
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 689
+type$ -- 700
 warning$ -- 3
 while$ -- 200
 width$ -- 0
-write$ -- 477
+write$ -- 481
 (There were 3 warnings)
