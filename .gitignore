@@ -65,9 +65,17 @@ jupyter/data/all.csv
 jupyter/figures/*
 *eps-converted-to.pdf
 
+# Latex
+
 *.aux
 
 *.gz
+
+*.bbl
+
+*.blg
+
+manuscripts/jcs/jcs.pdf
 
 manuscript/main.pdf
 
