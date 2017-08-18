@@ -1,3 +1,6 @@
+NOTE: Add appendix or remove reference in methods.tex!!!
+
+
 27-Jul-2017
 
 Dear Dr. Maillart,
