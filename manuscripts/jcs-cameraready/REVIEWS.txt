@@ -1,0 +1,82 @@
+27-Jul-2017
+
+Dear Dr. Maillart,
+
+It is a pleasure to accept your manuscript entitled "Given Enough Eyeballs, All Bugs Are Shallow? Revisiting Eric Raymond with Bug Bounty Programs" in its current form for publication in the Journal of Cybersecurity.  The comments of the reviewer(s) who reviewed your manuscript are included at the foot of this letter.
+
+Thank you for your fine contribution.  On behalf of the Editors of the Journal of Cybersecurity, we look forward to your continued contributions to the Journal.
+
+You will receive your official acceptance date from Oxford University Press once you have signed your licence to publish. (N.B. If you are a UK-based author and are looking to comply with the HEFCE policy on open access in the Research Excellence Framework, you should use the official acceptance date when depositing in your repository).
+
+ 
+Sincerely,
+Tyler Moore and David Pym
+Editors-in-Chief, Journal of Cybersecurity
+cybersecurity.editorialoffice@oup.com
+
+Area Editor
+Comments to the Author:
+The authors did a commendable job addressing the issues raised in the first round. Both reviewers and this area editor are satisfied that you have done enough to warrant acceptance. Please be sure to fix the minor issues pointed out by Reviewer 1 as the paper goes into publication.
+
+Reviewer: 1
+
+Comments to the Author
+Comments:
+
+p5 "a software many not" -> software many not
+"has played a significant role" -> played a significant role
+
+p6 "resort to the larger crowd" -> recruit a larger crowd
+
+p13 "bug bounties programs" -> bug bounty programs
+
+p15 "may have not be seen by other" -> may not have been seen by other
+"for each researcher individual" -> for each individual researcher
+"It can also be" -> They can also be
+"accounts for technical difficulties and insufficient incentives
+together" -> accounts for both technical difficulties and insufficient
+incentives
+
+p16 "bug, is" -> bug is
+
+p16 the amount I will rationally pay to play the St Petersburg lottery
+is the log to the base two of the maximum amount I believe the other
+player will pay me. So against a poor maths lecturer with a net worth
+of no more than $2^16, I should offer no more than $16.
+
+But if you assume the reward never exceeds what the black hats will
+pay (several hundred K) and the vendor's budget if smaller, such
+philosophical arguments may be moot.
+
+p18 there may also be herding effects leading a mother event to have
+more daughters. Another possibility is fatigue and boredom. Both can
+be bundled in H1-3 (p21)
+
+p23 the negative result for H3 might suggest that boredom isn't
+necessarily the main thing though.
+
+p25 "hire a hand security czars from a larger crowd" -> hire a band of
+security czars from a larger crowd
+"for hiring purpose" -> for hiring
+"reduce engagement of researchers" -> reduce engagement by researchers
+
+p26 perhaps if Uber hires 15 researchers, that's enough. In fact, how
+many is enough? Even markets don't have infinitely many players, and
+as you show, they flock to the newest projects
+"have already well performed" -> have already performed well
+"may feature older programs to security researchers" -> perhaps you
+mean "offer"?
+"received a major update" -> receives a major update
+
+p27 if following rec B you throttle back rewards during congested
+periods, you incentivise people to sell on the black market, contrary
+to rec c
+"apply indistinctly" -> apply indiscriminately
+"relative advantages bureaucracy" -> relative advantages of bureaucracy
+
+p28 "less options regarding switching" -> fewer options to switch
+
+Reviewer: 2
+
+Comments to the Author
+I have read the authors’ responses and revision to the paper. I appreciate the authors being responsive to the review comments. Both their responses and updates to the paper have helped clarify their intent and overall improved the work. My recommendation is to accept the paper in its current form. Congratulations.
