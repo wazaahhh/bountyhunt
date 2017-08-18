@@ -24,20 +24,33 @@ Comments to the Author
 Comments:
 
 p5 "a software many not" -> software many not
+DONE
+
 "has played a significant role" -> played a significant role
+DONE - slightly different
 
 p6 "resort to the larger crowd" -> recruit a larger crowd
+DONE
 
 p13 "bug bounties programs" -> bug bounty programs
+DONE + fixed a double-the etc.
 
 p15 "may have not be seen by other" -> may not have been seen by other
+DONE
+
 "for each researcher individual" -> for each individual researcher
+DONE
+
 "It can also be" -> They can also be
+DONE
+
 "accounts for technical difficulties and insufficient incentives
 together" -> accounts for both technical difficulties and insufficient
 incentives
+DONE
 
 p16 "bug, is" -> bug is
+DONE
 
 p16 the amount I will rationally pay to play the St Petersburg lottery
 is the log to the base two of the maximum amount I believe the other
@@ -47,34 +60,55 @@ of no more than $2^16, I should offer no more than $16.
 But if you assume the reward never exceeds what the black hats will
 pay (several hundred K) and the vendor's budget if smaller, such
 philosophical arguments may be moot.
+XXXXX STILL TO BE ADDRESSED XXXXX
 
 p18 there may also be herding effects leading a mother event to have
 more daughters. Another possibility is fatigue and boredom. Both can
 be bundled in H1-3 (p21)
+XXXXX STILL TO BE ADDRESSED XXXXX
 
 p23 the negative result for H3 might suggest that boredom isn't
 necessarily the main thing though.
+XXXXX STILL TO BE ADDRESSED XXXXX
 
 p25 "hire a hand security czars from a larger crowd" -> hire a band of
 security czars from a larger crowd
+DONE
+
 "for hiring purpose" -> for hiring
+DONE
+
 "reduce engagement of researchers" -> reduce engagement by researchers
+DONE
 
 p26 perhaps if Uber hires 15 researchers, that's enough. In fact, how
 many is enough? Even markets don't have infinitely many players, and
 as you show, they flock to the newest projects
+XXXXX STILL TO BE ADDRESSED XXXXX
+
 "have already well performed" -> have already performed well
+DONE
+
 "may feature older programs to security researchers" -> perhaps you
 mean "offer"?
+DONE - used "highlight"
+
 "received a major update" -> receives a major update
+DONE
 
 p27 if following rec B you throttle back rewards during congested
 periods, you incentivise people to sell on the black market, contrary
 to rec c
+XXXXX STILL TO BE ADDRESSED XXXXX
+
 "apply indistinctly" -> apply indiscriminately
+DONE
+
 "relative advantages bureaucracy" -> relative advantages of bureaucracy
+DONE
 
 p28 "less options regarding switching" -> fewer options to switch
+DONE
 
 Reviewer: 2
 
